@@ -1,0 +1,302 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[22:42:35] INFO     Using mask                                  builder.py:1365
+                    'channel-oxide-source_drain-gates-dots'                    
+                    (implicitly selecting shapes [Polygon 0                    
+                    'channel', Polygon 1 'oxide', Polygon 2                    
+                    'source', Polygon 3 'drain', Polygon 4                     
+                    'B1', Polygon 5 'P1', Polygon 6 'B2',                      
+                    Polygon 7 'P2', Polygon 8 'B3', Polygon 9                  
+                    'QD1', Polygon 10 'QD2'])                                  
+           INFO     Using mask 'oxide' (implicitly selecting    builder.py:1365
+                    shapes [Polygon 0 'oxide'])                                
+           INFO     Setting z-coordinate to -20                 builder.py:1291
+           INFO     Extruding shape 0 from mask 'oxide' with     builder.py:615
+                    name 'oxide' by 10 at z=-20                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[0]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[1]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[2]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[3]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top'                                      
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'oxide'                                          
+           INFO     Setting z-coordinate to -10                 builder.py:1291
+           INFO     Using mask 'channel' (implicitly selecting  builder.py:1365
+                    shapes [Polygon 0 'channel'])                              
+           INFO     Setting z-coordinate to -10                 builder.py:1291
+           INFO     Extruding shape 0 from mask 'channel' with   builder.py:615
+                    name 'channel' by 10 at z=-10                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_bottom'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_side[0]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_side[1]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_side[2]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_side[3]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel_top'                                    
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'channel'                                        
+           INFO     Identifying potential intersections...       builder.py:615
+[22:42:37] INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 0                   builder.py:1291
+           INFO     Using mask 'oxide' (implicitly selecting    builder.py:1365
+                    shapes [Polygon 0 'oxide'])                                
+           INFO     Setting z-coordinate to -10.0               builder.py:1291
+           INFO     Extruding shape 0 from mask 'oxide' with     builder.py:615
+                    name 'oxide' by 10 at z=-10.0                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[0]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[1]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[2]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side[3]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top'                                      
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_0'                                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom[0]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom[1]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom[2]'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top[0]'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top[1]'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top[2]'                                   
+           INFO     Setting z-coordinate to 0.0                 builder.py:1291
+           INFO     Setting z-coordinate to -10.0               builder.py:1291
+           INFO     Using mask 'source_drain' (implicitly       builder.py:1365
+                    selecting shapes [Polygon 0 'source',                      
+                    Polygon 1 'drain'])                                        
+           INFO     Extruding shape 0 from mask 'source_drain'   builder.py:615
+                    with name 'source' by 10 at z=-10.0                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_bottom'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_side[0]'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_side[1]'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_side[2]'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_side[3]'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'source_top'                                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'source'                                         
+           INFO     Extruding shape 1 from mask 'source_drain'   builder.py:615
+                    with name 'drain' by 10 at z=-10.0                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_bottom'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_side[0]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_side[1]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_side[2]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_side[3]'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'drain_top'                                      
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'drain'                                          
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 0.0                 builder.py:1291
+           INFO     Using mask 'oxide' (implicitly selecting    builder.py:1365
+                    shapes [Polygon 0 'oxide'])                                
+           INFO     Extruding shape 0 from mask 'oxide' with     builder.py:615
+                    name 'oxide' by 2 at z=0.0                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top'                                      
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 2.0                 builder.py:1291
+           INFO     Using mask 'gates' (implicitly selecting    builder.py:1365
+                    shapes [Polygon 0 'B1', Polygon 1 'P1',                    
+                    Polygon 2 'B2', Polygon 3 'P2', Polygon 4                  
+                    'B3'])                                                     
+           INFO     Creating a surface from shape 0 with name    builder.py:256
+                    'B1' from mask 'gates' at z=2.0                            
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B1'                                             
+           INFO     Creating a surface from shape 1 with name    builder.py:256
+                    'P1' from mask 'gates' at z=2.0                            
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P1'                                             
+           INFO     Creating a surface from shape 2 with name    builder.py:256
+                    'B2' from mask 'gates' at z=2.0                            
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B2'                                             
+           INFO     Creating a surface from shape 3 with name    builder.py:256
+                    'P2' from mask 'gates' at z=2.0                            
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P2'                                             
+           INFO     Creating a surface from shape 4 with name    builder.py:256
+                    'B3' from mask 'gates' at z=2.0                            
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B3'                                             
+           INFO     Identifying potential intersections...       builder.py:256
+           INFO     Fragmenting...                               builder.py:256
+           INFO     Using mask 'dots' (implicitly selecting     builder.py:1365
+                    shapes [Polygon 0 'QD1', Polygon 1 'QD2'])                 
+           INFO     Setting z-coordinate to -10.0               builder.py:1291
+           INFO     Extruding shape 0 from mask 'dots' with name builder.py:615
+                    'QD1' by 12 at z=-10.0                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD1_bottom'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD1_side'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD1_top'                                        
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'QD1'                                            
+           INFO     Extruding shape 1 from mask 'dots' with name builder.py:615
+                    'QD2' by 12 at z=-10.0                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD2_bottom'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD2_side'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'QD2_top'                                        
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'QD2'                                            
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dots'                                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide.QD1_side'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide.QD2_side'                                 
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'oxide.QD1'                                      
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'oxide.QD2'                                      
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'B3.QD2_top'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'P2.QD2_top'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide.QD2_bottom'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel.QD1_side'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'B2.QD2_top'                                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'channel.QD1'                                    
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'channel.QD2_side'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'B2.QD1_top'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide.QD1_bottom'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'P1.QD1_top'                                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'channel.QD2'                                    
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'B1.QD1_top'                                     
+           INFO     Setting z-coordinate to 2.0                 builder.py:1291
+           INFO     Merging groups ['P1', 'P1.QD1_top'] into     builder.py:915
+                    'plunger_gate_1_bnd'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:915
+                    with name 'plunger_gate_1_bnd'                             
+           INFO     Merging groups ['P2', 'P2.QD2_top'] into     builder.py:915
+                    'plunger_gate_2_bnd'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:915
+                    with name 'plunger_gate_2_bnd'                             
+           INFO     Merging groups ['B1', 'B1.QD1_top'] into     builder.py:915
+                    'barrier_gate_1_bnd'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:915
+                    with name 'barrier_gate_1_bnd'                             
+           INFO     Merging groups ['B2', 'B2.QD2_top',          builder.py:915
+                    'B2.QD1_top'] into 'barrier_gate_2_bnd'                    
+           INFO     Creating new physical group of dimension 2   builder.py:915
+                    with name 'barrier_gate_2_bnd'                             
+           INFO     Merging groups ['B3', 'B3.QD2_top'] into     builder.py:915
+                    'barrier_gate_3_bnd'                                       
+           INFO     Creating new physical group of dimension 2   builder.py:915
+                    with name 'barrier_gate_3_bnd'                             
+           INFO     Preparing to mesh                            builder.py:952
+           INFO     Detecting appropriate random factor          builder.py:952
+           INFO     Increased random factor from 1e-09 to        builder.py:952
+                    1.3855583448574303e-08                                     
+           INFO     Random factor is now appropriate             builder.py:952
+           INFO     Meshing                                      builder.py:952
+[22:42:40] INFO     Checking mesh conformity                     builder.py:952
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\AppData\Local\Temp\tmp5a5                
+                    8oe4m\mesh.msh                                             
+           INFO     Checking connectivity                        builder.py:952
+
+nodes:   0%|          | 0/4496 [00:00<?, ?it/s]
+nodes:   0%|          | 0/4496 [00:00<?, ?it/s]
+nodes: 100%|██████████| 4496/4496 [00:00<00:00, 101906.48it/s]
+nodes: 100%|██████████| 4496/4496 [00:00<00:00, 100966.92it/s]
+nodes: 100%|██████████| 4496/4496 [00:00<00:00, 100677.45it/s]
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\..\..\Temp\m17_fdsoi_set\                
+                    fdsoi_set.msh                                              
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\..\..\Temp\m17_fdsoi_set\                
+                    fdsoi_set.xao                                              
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 5.890669999993406 s

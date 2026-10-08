@@ -1,0 +1,371 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M04. Lever arm\Reference\meshes\dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      5084                
+Triangular elements           404                 
+Tetrahedral elements          4680                
+Total number of nodes         1057                
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Computing lever arm of plunger_gate_1_bnd ...
+================================================================================
+CALCULATING LEVER ARM
+================================================================================
+Potential applied to plunger_gate_1_bnd: 0.56 V
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.560000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.590000000000      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.378e+00      0.458795     (-5.921e-25, -5.500e-08, 0.000e+00) 
+2               3.938e-02      0.098237     (-2.000e-08, 4.000e-08, -1.000e-08) 
+3               3.255e-03      0.095195     (6.667e-09, 4.000e-08, -5.000e-09)  
+4               1.436e-04      0.099635     (6.667e-09, 4.000e-08, -5.000e-09)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 4 Poisson iterations.
+> 0.8253500461578369 s.
+Average computation time / Poisson iteration is 0.20637309551239014 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 1.0360992000205442 s.
+Energy levels (eV)
+[0.06719872 0.06883081 0.07224231 0.08330577 0.08668163 0.08725102 0.08908721 0.09767645 0.10035938 0.10896519]
+================================================================================
+Potential applied to plunger_gate_1_bnd: 0.5750000000000001 V
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.500e-02      0.105998     (-3.000e-08, -2.500e-08, 2.000e-09) 
+2               1.431e-05      0.095454     (-2.000e-08, -4.000e-08, -1.000e-08)
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.20337820053100586 s.
+Average computation time / Poisson iteration is 0.10176873207092285 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.723860899975989 s.
+Energy levels (eV)
+[0.06718408 0.06752161 0.07171045 0.07947992 0.08393701 0.08581436 0.08695401 0.09211861 0.09906043 0.10580769]
+================================================================================
+Potential applied to plunger_gate_1_bnd: 0.5900000000000001 V
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.500e-02      0.104335     (-3.000e-08, -2.500e-08, 2.000e-09) 
+2               1.396e-05      0.101153     (6.667e-09, -4.000e-08, -5.000e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.20817160606384277 s.
+Average computation time / Poisson iteration is 0.10420370101928711 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7371315999771468 s.
+Energy levels (eV)
+[0.06604033 0.06716936 0.07051546 0.07260631 0.08119254 0.08403205 0.08658121 0.08765199 0.09698356 0.10138325]
+================================================================================
+Potential applied to plunger_gate_1_bnd: 0.605 V
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.500e-02      0.108809     (-3.000e-08, -2.500e-08, 2.000e-09) 
+2               1.391e-05      0.099877     (6.667e-09, -4.000e-08, -5.000e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.21068310737609863 s.
+Average computation time / Poisson iteration is 0.10543906688690186 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7295780000276864 s.
+Energy levels (eV)
+[0.06236329 0.06538412 0.06715708 0.07078538 0.07596351 0.08259658 0.08453626 0.08687168 0.09119086 0.09835519]
+================================================================================
+Potential applied to plunger_gate_1_bnd: 0.62 V
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.500e-02      0.103469     (-3.000e-08, -2.500e-08, 2.000e-09) 
+2               1.403e-05      0.101594     (6.667e-09, -4.000e-08, -5.000e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.20807957649230957 s.
+Average computation time / Poisson iteration is 0.10422694683074951 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7663660999969579 s.
+Energy levels (eV)
+[0.05407962 0.06302134 0.06713320 0.06854549 0.07126375 0.07938399 0.08313983 0.08490444 0.08677986 0.09613086]
+Lever arm of plunger_gate_1 on E0: 0.2071
+
+Computing lever arm matrix (5 gates, finite difference) ...
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3464                
+Triangular elements           296                 
+Tetrahedral elements          3168                
+Total number of nodes         735                 
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+================================================================================
+Solving Poisson and Schrodinger in reference configuration.
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.590000000000      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.378e+00      0.107684     (-5.921e-25, -5.500e-08, 0.000e+00) 
+2               3.937e-02      0.102415     (-2.000e-08, 4.000e-08, -1.000e-08) 
+3               3.255e-03      0.093134     (6.667e-09, 4.000e-08, -5.000e-09)  
+4               1.436e-04      0.102116     (6.667e-09, 4.000e-08, -5.000e-09)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 4 Poisson iterations.
+> 0.415391206741333 s.
+Average computation time / Poisson iteration is 0.10388725996017456 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7767589999712072 s.
+Energies in reference bias configuration (eV)
+[0.06604431 0.06717084 0.0705164  0.07260726 0.08119424 0.08403444
+ 0.08658403 0.08765475 0.09698468 0.10138442]
+================================================================================
+Calculating lever arm for: barrier_gate_1_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      0.113220     (-3.000e-08, -4.000e-08, 2.000e-09) 
+2               1.814e-05      0.096420     (6.667e-09, -4.000e-08, -5.000e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.21191668510437012 s.
+Average computation time / Poisson iteration is 0.10605287551879883 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7056243999977596 s.
+Energies for this gate (eV)
+[0.06572795 0.06716899 0.07049135 0.0725555  0.08103889 0.083898
+ 0.08651837 0.08754572 0.09695381 0.10132866]
+================================================================================
+Calculating lever arm for: plunger_gate_1_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      0.114271     (-3.000e-08, -4.000e-08, 2.000e-09) 
+2               1.828e-05      0.100569     (6.667e-09, -4.000e-08, -5.000e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.21671533584594727 s.
+Average computation time / Poisson iteration is 0.10843372344970703 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7189736000145786 s.
+Energies for this gate (eV)
+[0.06592859 0.06716802 0.07026386 0.0722946  0.08091446 0.0839397
+ 0.08650691 0.08748238 0.09673281 0.10105114]
+================================================================================
+Calculating lever arm for: barrier_gate_2_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      0.110099     (-3.000e-08, -2.500e-08, 2.000e-09) 
+2               0.000e+00      0.100517     (-2.000e-08, -6.500e-08, 0.000e+00) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.21265745162963867 s.
+Average computation time / Poisson iteration is 0.10641372203826904 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.8486979000153951 s.
+Energies for this gate (eV)
+[0.06603668 0.06716128 0.07023462 0.07243584 0.08105082 0.08393694
+ 0.08655452 0.08757206 0.09670074 0.10122601]
+================================================================================
+Calculating lever arm for: plunger_gate_2_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      0.120662     (-3.000e-08, 1.000e-08, 2.000e-09)  
+2               1.110e-16      0.115936     (-1.000e-08, -5.444e-08, -5.000e-09)
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.23949170112609863 s.
+Average computation time / Poisson iteration is 0.11984109878540039 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.7561000999994576 s.
+Energies for this gate (eV)
+[0.06604276 0.06705697 0.07021043 0.07239635 0.08104517 0.08380412
+ 0.08649556 0.08751354 0.09673152 0.10117147]
+================================================================================
+Calculating lever arm for: barrier_gate_3_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      0.111823     (-3.000e-08, 1.000e-08, 2.000e-09)  
+2               3.153e-05      0.106759     (2.000e-08, 4.000e-08, -5.000e-09)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 0.22046375274658203 s.
+Average computation time / Poisson iteration is 0.11030662059783936 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 0.786291100026574 s.
+Energies for this gate (eV)
+[0.06604328 0.06685068 0.07049318 0.07258452 0.08115628 0.08394241
+ 0.08632818 0.0875676  0.09695575 0.10135142]
+Lever arm matrix (rows: eigenstates 0,1 ; cols: gates):
+['barrier_gate_1_bnd', 'plunger_gate_1_bnd', 'barrier_gate_2_bnd', 'plunger_gate_2_bnd', 'barrier_gate_3_bnd']
+[[1.97459228e+18 7.22258608e+17 4.76215500e+16 9.70164453e+15
+  6.46616404e+15]
+ [1.15771644e+16 1.76120192e+16 5.96544227e+16 7.10729168e+17
+  1.99830136e+18]]
+
+Done.
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 29.48347910004668 s

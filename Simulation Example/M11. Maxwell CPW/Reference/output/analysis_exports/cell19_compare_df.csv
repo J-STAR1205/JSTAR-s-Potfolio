@@ -1,0 +1,4 @@
+Quantity,Frequency (GHz)
+LC resonator (analytical),5.928670512812221
+"Transmon qubit (analytical, Blais et al.)",5.7376426103693445
+"Bare Maxwell mode (FEM, this run)",5.72449

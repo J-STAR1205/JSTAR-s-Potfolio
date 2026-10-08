@@ -1,0 +1,120 @@
+﻿conda : C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\spherical_dot.py:119: UserWarning: FigureCanvasAgg is non-interactive, and thu
+s cannot be shown
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python spherical_dot.py 2>&1 | ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\spherical_dot.py:175: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot
+ be shown
+  plt.show()
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\meshes\spherical_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      38609               
+Triangular elements           0                   
+Tetrahedral elements          38609               
+Total number of nodes         8051                
+Region physical names         ball, cube_shell,             
+================================================================================
+Tiling crystallographic unit cell over volume of atomic structure...
+Atomic structure built in 7.066720962524414 s.
+Total number of atoms in atomic structure: 23005.
+Assigning atoms to mesh physical groups...
+Assignment done in 0.924248456954956 s.
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\output\spherical_dot_from_mesh.vtu
+Estimated file size: 190.715 kB
+Tiling crystallographic unit cell over volume of atomic structure...
+Atomic structure built in 6.4782021045684814 s.
+Total number of atoms in atomic structure: 21952.
+Relaxing atomic structure...
+Atomic structure relaxed in 22.7016761302948 s.
+Total number of atoms in restricted atomic structure: 9199.
+Computing 5 eigenpairs of tight-binding Hamiltonian...
+5 eigenpairs of Hamiltonian were computed in: 10.438610792160034 s.
+Atomistic tight-binding eigenenergies (eV):
+[0.91115679 0.91154340 0.91204664 0.91465000 0.91480240]
+--------------------------------------------------------------------------------
+Geometric properties of the tight-binding wavefunction:
+--------------------------------------------------------------------------------
+position:  [-0.03250869 -0.03250869  1.49591997] A
+std:  [ 8.70930467  8.70930467 10.01377947] A
+size:  [34.83721868 34.83721868 40.0551179 ] A
+--------------------------------------------------------------------------------
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\output\spherical_dot.vtu
+Estimated file size: 392.993 kB
+Total number of atoms in restricted atomic structure: 9199.
+Computing 5 eigenpairs of tight-binding Hamiltonian...
+5 eigenpairs of Hamiltonian were computed in: 9.627638339996338 s.
+Atomistic tight-binding eigenenergies (eV):
+[0.79643076 0.79693561 0.79716030 0.79997091 0.80041135]
+--------------------------------------------------------------------------------
+Geometric properties of the tight-binding wavefunction:
+--------------------------------------------------------------------------------
+position:  [0.0551719  0.0551719  0.94433748] A
+std:  [7.95383172 7.95383172 8.81269573] A
+size:  [31.81532688 31.81532688 35.25078293] A
+--------------------------------------------------------------------------------
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\output\spherical_dot_defect.vtu
+Estimated file size: 391.440 kB
+Tiling crystallographic unit cell over volume of atomic structure...
+Atomic structure built in 0.5406358242034912 s.
+Total number of atoms in atomic structure: 21952.
+Relaxing atomic structure...
+Atomic structure relaxed in 18.88714361190796 s.
+Total number of atoms in restricted atomic structure: 9199.
+Computing 5 eigenpairs of tight-binding Hamiltonian...
+5 eigenpairs of Hamiltonian were computed in: 12.918781042098999 s.
+Atomistic tight-binding eigenenergies (eV):
+[0.90904284 0.91034634 0.91105960 0.91384611 0.91517578]
+--------------------------------------------------------------------------------
+Geometric properties of the tight-binding wavefunction:
+--------------------------------------------------------------------------------
+position:  [ 0.06546893 -0.36281213  1.24692721] A
+std:  [10.22557065  9.18196269  8.24073013] A
+size:  [40.90228262 36.72785075 32.96292053] A
+--------------------------------------------------------------------------------
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\output\spherical_dot_gradient.vtu
+Estimated file size: 492.574 kB
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 106.626055599947 s

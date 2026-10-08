@@ -1,0 +1,172 @@
+﻿conda : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1579: UserWarning: 'phi' set as a Field will not persist after mesh refinement. Please consi
+der using a function or constant instead.
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python 3-leverarm.py 2>&1 | Te ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...nstant instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().set_potential(phi)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\meshes\refined_gedqd.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2337669             
+Triangular elements           167571              
+Tetrahedral elements          2170098             
+Total number of nodes         371211              
+Boundary physical names       substrate_bottom, substrate_side, SiGe_barrier_bottom, SiGe_barrier_side, Ge_well_bottom, Ge_well_side, SiGe_cap_bottom, SiGe_cap_side, oxide_bottom, oxide_side, oxide_top, Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, BC, BR, BL, P2, P1, 
+Region physical names         substrate, SiGe_barrier, Ge_well, SiGe_cap, oxide, Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      331736              
+Triangular elements           38857               
+Tetrahedral elements          292879              
+Total number of nodes         52613               
+Boundary physical names       Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, 
+Region physical names         Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+================================================================================
+Solving Poisson and Schrodinger in reference configuration.
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+P1                                          gate            -1.500000000000     
+P2                                          gate            -1.500000000000     
+BC                                          gate            0.900000000000      
+BL                                          gate            0.500000000000      
+BR                                          gate            0.500000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.218e+00      20.088402    (5.979e-08, 4.263e-08, 8.500e-08)   
+2               3.256e-01      9.736201     (8.079e-08, 6.238e-08, 6.759e-08)   
+3               2.710e-01      7.777345     (7.407e-08, 6.786e-08, 7.274e-08)   
+4               2.317e-01      10.025931    (2.588e-08, 7.298e-09, 7.500e-08)   
+5               7.961e-02      8.167602     (2.250e-08, 5.156e-08, 7.409e-08)   
+6               2.122e-02      10.351082    (-2.000e-08, 3.370e-08, 6.785e-08)  
+7               1.240e-02      10.009300    (-2.000e-08, 3.647e-08, 6.269e-08)  
+8               4.012e-03      10.150691    (-2.000e-08, 7.000e-08, 6.183e-08)  
+9               6.428e-04      11.343049    (-2.000e-08, 6.697e-08, 5.755e-08)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 9 Poisson iterations.
+> 109.99623799324036 s.
+Average computation time / Poisson iteration is 12.221805466545952 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for holes.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 32644.657542500005 s.
+Energies in reference bias configuration (eV)
+[-0.21359199 -0.21359189 -0.21304273 -0.21304261 -0.20162855 -0.20162814
+ -0.20092155 -0.20092139 -0.1964677  -0.19646755 -0.19575103 -0.1957506
+ -0.19368883 -0.19368845 -0.19292903 -0.1929284  -0.18711261 -0.18709212
+ -0.1863547  -0.18632737]
+================================================================================
+Calculating lever arm for: P1
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      10.842631    (3.311e-08, 2.269e-08, 8.500e-08)   
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 1 Poisson iteration.
+> 11.22195553779602 s.
+Average computation time / Poisson iteration is 11.221964359283447 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for holes.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 213.2086236999603 s.
+Energies for this gate (eV)
+[-0.21350362 -0.21350359 -0.21303353 -0.2130335  -0.20154016 -0.20154001
+ -0.20091251 -0.20091246 -0.19638147 -0.19638137 -0.19574212 -0.19574188
+ -0.1935994  -0.19359922 -0.1929203  -0.19291974 -0.18702494 -0.18700673
+ -0.18634703 -0.18632121]
+================================================================================
+Calculating lever arm for: P2
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      8.733940     (3.311e-08, 2.269e-08, 8.500e-08)   
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 1 Poisson iteration.
+> 9.018426179885864 s.
+Average computation time / Poisson iteration is 9.018433570861816 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for holes.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 242.19225299998652 s.
+Energies for this gate (eV)
+[-0.21356928 -0.21356926 -0.2129532  -0.21295317 -0.20160615 -0.201606
+ -0.20083222 -0.20083216 -0.19644573 -0.19644562 -0.19566375 -0.19566352
+ -0.1936667  -0.19366651 -0.19283885 -0.19283828 -0.18709189 -0.1870731
+ -0.18626631 -0.18624149]
+Lever-arm matrix
+[[-0.08837148 -0.02270607]
+ [-0.08829254 -0.02262715]
+ [-0.00919698 -0.08952134]
+ [-0.009109   -0.08943316]
+ [-0.08838655 -0.02239581]
+ [-0.08813444 -0.02214572]
+ [-0.0090397  -0.08933603]
+ [-0.00893061 -0.08922585]
+ [-0.08622862 -0.02197007]
+ [-0.08618016 -0.02192219]
+ [-0.00891112 -0.08728103]
+ [-0.00871253 -0.08707856]
+ [-0.0894385  -0.02213539]
+ [-0.08923511 -0.02193694]
+ [-0.00872913 -0.09018236]
+ [-0.0086605  -0.09012041]
+ [-0.08767219 -0.02071444]
+ [-0.08538933 -0.01902033]
+ [-0.00767454 -0.08839403]
+ [-0.00616279 -0.08588187]]
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 43708.14012639999 s

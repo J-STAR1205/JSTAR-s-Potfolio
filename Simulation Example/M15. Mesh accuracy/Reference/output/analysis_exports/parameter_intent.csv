@@ -1,0 +1,6 @@
+technique,parameter,intent
+1. Symmetric mesh,"mirror plane y=-32.5nm, eta0 미사용(min_nodes=60000)","이중양자점이 y=-32.5nm 축에 대해 좌우 대칭이므로, 그 절반만 메시로 만들면 동일 해상도에서 절반의 자유도로 끝남 — 2배 빠른 adaptive refinement. min_nodes=60000은 M03/M06의 전체-도메인 dqdfdsoi 메시(비슷한 노드 수)와 비교 가능하도록 맞춘 값."
+1. Symmetric mesh,"h_refined=0.7, refined_region=dot_region_list",dot 영역만 더 조밀하게(0.7배 요소 크기) 정제 — 전체 도메인을 균일하게 정제하는 것보다 비용 대비 정확도가 높음 (M02의 '정확도-계산시간' 표와 같은 원리).
+2. Periodic BC,"N=3 clavier gates, B=100mV, tau=1ns","실제 셔틀링 실험에서 쓰이는 수준의 진폭(~100mV)과 속도(~GHz)를 모사 — 너무 느리면(긴 tau) 준정적(quasi-static) 근사가 자명해지고, 너무 빠르면 선형중첩(각 활성화의 선형결합)이 깨질 수 있음."
+2. Periodic BC,linear Poisson (비선형 아님),"각 clavier 활성화 패턴에 대한 전위를 **한 번씩만** 선형 Poisson으로 풀고, 임의 시간의 전위를 그 선형결합으로 재구성 — N=4번의 풀이로 연속시간 전체를 커버하는 것이 이 기법의 핵심 비용 절감 포인트."
+3. 1D quantum well,"num_states=20, ti_directions=[x,y]","x,y 방향을 translationally-invariant(평면파)로 처리하면 3D 메시가 전혀 필요 없어짐 — 1D 메시(250 요소)만으로 6-band k.p 밴드구조 전체를 계산, 3D Schrödinger 대비 자유도가 수천 배 줄어듦."

@@ -1,0 +1,19 @@
+{
+  "qtcad_version": "unknown (2.2.6 per CLAUDE.md)",
+  "python_version": "3.13.15 | packaged by conda-forge | (main, Sep  2 2026, 21:52:43) [MSC v.1944 64 bit (AMD64)]",
+  "source_script": "MOS_EDSR.py",
+  "mesh_file": "C:\\Users\\norma\\Desktop\\\uc5f0\uad6c\uc790\ub8cc\\QTCAD Simulation\\Simulation Example\\M08. Micromagnet EDSR\\Reference\\meshes\\MOS_EDSR_example.msh",
+  "phi_tg_V": 1.0,
+  "phi_sg_V": 0.0,
+  "B0_T": 0.6,
+  "b_gradient_T_per_m": 300000.0,
+  "num_states": 6,
+  "transition_levels": [
+    1,
+    0
+  ],
+  "omega0_rad_s": 105529199758.67052,
+  "omega_rabi_rad_s": 10735662.268762141,
+  "f_rabi_Hz": 1708633.7174386466,
+  "units_note": "omega0/omega_rabi in rad/s; f_rabi_Hz = omega_rabi/(2*pi) in Hz; h0,u in J (joules)."
+}

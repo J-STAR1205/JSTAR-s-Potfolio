@@ -1,0 +1,4 @@
+parameter,intent
+"detuning=5mV, back_gate=-0.5, barrier_1=0.5, plunger_1=0.59, barrier_2=0.57(low), plunger_2=0.59+detuning, barrier_3=0.5",M03의 'low barrier' 튜닝을 그대로 재사용(exchange 계산은 tunnel coupling이 큰 영역에서 의미 있는 값을 가지므로 high barrier가 아닌 low barrier 선택). 5mV의 작은 detuning은 완전 대칭(0mV)에서 전자가 두 dot에 비등하게 걸치도록 하는 안전장치 + exact diagonalization(M05)과 동일 조건 비교를 위함.
+"Poisson tol=1e-3, Schrödinger tol=1e-6 eV",M03에서 이미 수렴 확인된 tol 값 재사용 — 새로 수렴성을 검증할 필요 없이 바로 결과를 신뢰할 수 있는 수준.
+"many_body_solver_params.num_states=2, overlap=False","2-site Hubbard 모형(1절)에 필요한 최소 상태 수(dot1, dot2 국소화 상태) 2개만 요청 — exchange coupling 계산에 더 높은 궤도는 불필요. overlap=False는 비직교(non-orthogonal) 보정 없이 단순 Coulomb 적분만 계산."

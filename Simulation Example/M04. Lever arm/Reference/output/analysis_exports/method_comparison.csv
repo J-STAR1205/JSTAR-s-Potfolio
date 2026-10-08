@@ -1,0 +1,3 @@
+method,lever_arm,perturbation_scale_mV
+"Linear fit (60 mV sweep, leverarm.Solver)",0.20705985074464656,60.0
+"Finite difference (1 mV, leverarm_matrix.Solver)",0.11571858549118297,1.0

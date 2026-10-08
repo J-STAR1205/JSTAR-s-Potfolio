@@ -1,0 +1,130 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M17. FD-SOI SET\Reference\meshes\dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      23348               
+Triangular elements           3048                
+Tetrahedral elements          20300               
+Total number of nodes         4496                
+Boundary physical names       channel_bottom, channel_side[0], channel_side[1], channel_side[2], channel_side[3], channel_top, oxide_side[0], oxide_side[1], oxide_side[2], oxide_side[3], oxide_0, oxide_top[0], oxide_top[1], oxide_top[2], source_side[3], drain_side[1], source_bottom, source_side[0], source_side[1], source_side[2], source_top, drain_bottom, drain_side[0], drain_side[2], drain_side[3], drain_top, oxide_bottom, oxide_side, oxide_top, QD1_top, QD2_side, QD2_top, oxide.QD1_side, oxide.QD2_side, oxide.QD2_bottom, channel.QD1_side, channel.QD2_side, oxide.QD1_bottom, back_gate_bnd, source_bnd, drain_bnd, dots, plunger_gate_1_bnd, plunger_gate_2_bnd, barrier_gate_1_bnd, barrier_gate_2_bnd, barrier_gate_3_bnd, 
+Region physical names         oxide, channel, source, drain, oxide.QD1, oxide.QD2, channel.QD1, channel.QD2, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            1.250000000000      
+barrier_gate_2_bnd                          gate            0.500000000000      
+plunger_gate_2_bnd                          gate            0.750000000000      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+=======================================
+Starting refinements: (eta0 = 0.1000)
+---------------------------------------
+Completed refinements: 0, Current mesh size: 4496 nodes, 20300 3D elements, current rel. error: 0.351433
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      878015              
+Triangular elements           55250               
+Tetrahedral elements          822765              
+Total number of nodes         150480              
+Boundary physical names       back_gate_bnd, source_bnd, drain_bnd, dots, plunger_gate_1_bnd, plunger_gate_2_bnd, barrier_gate_1_bnd, barrier_gate_2_bnd, barrier_gate_3_bnd, 
+Region physical names         oxide, channel, source, drain, oxide.QD1, oxide.QD2, channel.QD1, channel.QD2, 
+================================================================================
+Completed refinements: 1, Current mesh size: 150480 nodes, 822765 3D elements, current rel. error: 0.150630
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2193712             
+Triangular elements           144829              
+Tetrahedral elements          2048883             
+Total number of nodes         376067              
+Boundary physical names       back_gate_bnd, source_bnd, drain_bnd, dots, plunger_gate_1_bnd, plunger_gate_2_bnd, barrier_gate_1_bnd, barrier_gate_2_bnd, barrier_gate_3_bnd, 
+Region physical names         oxide, channel, source, drain, oxide.QD1, oxide.QD2, channel.QD1, channel.QD2, 
+================================================================================
+Completed refinements: 2, Current mesh size: 376067 nodes, 2048883 3D elements, current rel. error: 0.107306
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3022976             
+Triangular elements           233537              
+Tetrahedral elements          2789439             
+Total number of nodes         524802              
+Boundary physical names       back_gate_bnd, source_bnd, drain_bnd, dots, plunger_gate_1_bnd, plunger_gate_2_bnd, barrier_gate_1_bnd, barrier_gate_2_bnd, barrier_gate_3_bnd, 
+Region physical names         oxide, channel, source, drain, oxide.QD1, oxide.QD2, channel.QD1, channel.QD2, 
+================================================================================
+Completed refinements: 3, Current mesh size: 524802 nodes, 2789439 3D elements, current rel. error: 0.096667
+---------------------------------------
+Refinements complete:
+Completed refinements: 3, Current mesh size: 524802 nodes, 2789439 3D elements
+=======================================
+Saved variable phi in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M17. FD-SOI SET\Reference\output\phi\phi.hdf5
+Estimated file size: 2.404 MB
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M17. FD-SOI SET\Reference\output\phi\CB.vtu
+conda : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\io.py:45: UserWarning: A large file (>10MB) was produced. Please make sure this is compatible with you
+r memory capabilites.
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python 2-linear_poisson.py 2>& ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...ry capabilites.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  iop.save(
+2026-10-01 22:53:22.359 ( 270.810s) [2B5CB9309B9802E3]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001F06C531430): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+Estimated file size: 246.564 MB
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 276.45733850001125 s

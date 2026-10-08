@@ -1,0 +1,8 @@
+file,exists,size_MB
+cap_xmon-values.txt,True,0.00310516357421875
+cap_xmon-delta_rel.txt,True,0.00310516357421875
+xmon-values.txt,True,0.0016012191772460938
+xmon-fields.vtu,True,190.19698333740234
+maxwell_xmon_run.log,True,0.009129524230957031
+meandered_resonator-values.txt,True,0.00127410888671875
+meandered_resonator-fields.vtu,True,76.20459842681885

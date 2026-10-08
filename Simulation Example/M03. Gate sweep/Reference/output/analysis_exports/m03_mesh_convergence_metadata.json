@@ -1,0 +1,17 @@
+{
+  "classification": "B. Parameter sensitivity / numerical convergence study",
+  "junction_left_nm": -45.0,
+  "junction_right_nm": 45.0,
+  "wiggle_detection_method": "scipy.signal.argrelextrema(order=3) within +-5nm of junction; closest local-min/local-max pair taken as the ripple (matches M03 investigation fork's original method)",
+  "results": {
+    "Case 0 (baseline, h_refined=0.8 dot-only, 173626 nodes)": {
+      "left_amplitude_mV": 3.552278,
+      "right_amplitude_mV": 2.722854
+    },
+    "Case 1 (h_refined=0.5, +channel/source/drain, 644774 nodes)": {
+      "left_amplitude_mV": "not detected (wiggle disappeared)",
+      "right_amplitude_mV": 1.003136
+    }
+  },
+  "verdict": "Numerical artifact (Case 1 in the original classification): both junctions show amplitude decreasing sharply under mesh refinement (right: -63%, left: wiggle vanishes entirely). Only 2 mesh levels tested (Case 2 at h_refined=0.3 crashed with ArrayMemoryError from over-broad refined_region scope -- see script comments) so this is not a fully converged 3+-point series, but the direction and magnitude of change strongly favor numerical origin over a physical feature."
+}

@@ -1,0 +1,6 @@
+항목,"M06 (Poisson-only, 참고)",M10 (NEGF / Master equation)
+지배 방정식,Poisson 방정식 (정전기학),NEGF (양자 수송) + Poisson (자기 일관) / Master equation
+얻어지는 물리량,"정전 포텐셜, 전하 점유수(charge occupation)","LDOS, 에너지-분해 스펙트럴 전류, 실제 drain-source 전류"
+바이어스 의존성,게이트 전압에 대한 전하 안정성(charge-stability) 만 계산,"Vds, 게이트 전압 모두에 대해 실제 전류를 계산"
+터널링/공명 효과,포함하지 않음 (고전적 정전용량 모델),"공명 터널링, Coulomb blockade에 의한 순차 터널링을 명시적으로 재현"
+이 노트북에서의 대응 결과,"(본 노트북 범위 밖, 중복 분석하지 않음)","band_0/ldos_0/spectral_current_0, LDOS 공명 피크, Coulomb 진동/CSD"

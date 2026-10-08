@@ -1,0 +1,138 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.3032118999399245 s.
+[alpha_cross=0.006] slope_analytic=-0.0078, slope_sim=0.0188, rel.err=339.8%, inliers=72/72, time=24.6s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.005068900063633919 s.
+[alpha_cross=0.02] slope_analytic=-0.0262, slope_sim=-0.9005, rel.err=3343.4%, inliers=64/72, time=24.4s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.006717099924571812 s.
+[alpha_cross=0.05] slope_analytic=-0.0654, slope_sim=-0.9676, rel.err=1380.0%, inliers=67/72, time=23.9s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.00804059999063611 s.
+[alpha_cross=0.1] slope_analytic=-0.1308, slope_sim=-0.0609, rel.err=53.4%, inliers=72/72, time=30.6s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.00724649999756366 s.
+[alpha_cross=0.15] slope_analytic=-0.1961, slope_sim=-0.6985, rel.err=256.1%, inliers=69/72, time=31.1s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.007068399921990931 s.
+[alpha_cross=0.2] slope_analytic=-0.2615, slope_sim=-0.9976, rel.err=281.5%, inliers=72/72, time=30.8s
+
+====================================================================================================
+ alpha_cross  alpha_dominant  slope_analytic  slope_simulated  relative_error_pct  n_ridge_points  n_inliers  wall_time_s
+       0.006        0.764731       -0.007846         0.018811          339.762214              72         72    24.573001
+       0.020        0.764731       -0.026153        -0.900549         3343.389528              72         64    24.352371
+       0.050        0.764731       -0.065382        -0.967633         1379.958012              72         67    23.905954
+       0.100        0.764731       -0.130765        -0.060888           53.436948              72         72    30.587279
+       0.150        0.764731       -0.196147        -0.698539          256.129296              72         69    31.089447
+       0.200        0.764731       -0.261530        -0.997620          281.455535              72         72    30.830024
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M06. Charge stability\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 170.8276130000595 s

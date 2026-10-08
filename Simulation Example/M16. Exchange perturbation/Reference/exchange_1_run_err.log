@@ -1,0 +1,4 @@
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1579: UserWarning: 'phi' set as a Field will not persist after mesh refinement. Please consider using a function or constant instead.
+  super().set_potential(phi)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\io.py:45: UserWarning: A large file (>10MB) was produced. Please make sure this is compatible with your memory capabilites.
+  iop.save(

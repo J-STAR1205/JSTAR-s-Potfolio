@@ -1,0 +1,85 @@
+﻿python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:2256: UserWarning: The attribute conf_carriers of the device object was not specified; conf_carriers will be set to 'e'.
+At line:5 char:1
++ python -X utf8 cap_xmon.py *> cap_xmon_run.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\... be set to 'e'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().__init__(
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\meshes\xmon.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3051                
+Triangular elements           656                 
+Tetrahedral elements          2395                
+Total number of nodes         605                 
+Boundary physical names       substrate_top, xmon_cross, xy_ctrl, readout, qbus, jj, gnd, 
+Region physical names         substrate, air,               
+================================================================================
+
+Refined mesh will be saved in:
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\cap_xmon\cap_xmon-refined-mesh.msh4
+
+Convergence data will be saved in:
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\cap_xmon\cap_xmon-values.txt
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\cap_xmon\cap_xmon-delta.txt
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\cap_xmon\cap_xmon-delta_rel.txt
+
+Deleted 3 outdated files containing results from a previous simulation.
+
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Generating mesh with algorithm:  hxt
+Convergence of capacitance values achieved.
+            xmon_cross  xy_ctrl     readout     qbus        
+xmon_cross  9.854e-14   -1.778e-16  -2.995e-15  -2.996e-15  
+xy_ctrl     -1.778e-16  4.751e-14   -6.207e-18  -1.575e-17  
+readout     -2.995e-15  -6.207e-18  8.348e-14   -1.016e-16  
+qbus        -2.996e-15  -1.575e-17  -1.016e-16  8.359e-14   
+
+Time taken: 889.5 s
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 900.8116300000111 s

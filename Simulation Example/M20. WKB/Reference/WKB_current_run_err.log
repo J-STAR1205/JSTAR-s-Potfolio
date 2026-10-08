@@ -1,0 +1,2 @@
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1468: UserWarning: 'V' set as an array will not persist after mesh refinement. Please consider using a function or constant instead.
+  return super().set_V(V, region=region)

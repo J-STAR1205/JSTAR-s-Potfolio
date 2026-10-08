@@ -1,0 +1,4 @@
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\schrodinger.py:67: UserWarning: The confinement potential is zero everywhere. Did you forget to set the confinement potential using, e.g., set_V_fom_phi?
+  super().solve(k=k, mixing=mixing)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\schrodinger.py:142: UserWarning: No strain model specified. By default 'bir_pikus' will be used. See qtcad/device/strain.py for more details. 
+  return super().get_a_matrix_holes(dim=dim)

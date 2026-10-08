@@ -1,0 +1,4 @@
+log,file,n_iterations_logged,last_max_abs_error_V,total_computation_time_s,MemoryError_traceback_found,log_mtime
+run1,fdsoi_negf_run.log,19,0.01217030605830316,2389.5167379379272,True,2026-09-29 05:14:53.817879915
+run2,fdsoi_negf_run2.log,23,0.000997105958132849,1136.450171470642,False,2026-09-29 06:09:59.031243324
+run3,fdsoi_negf_run3.log,23,0.000997105958132849,1197.8442387580872,False,2026-09-29 07:22:29.359198332

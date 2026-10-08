@@ -1,0 +1,4 @@
+technique,cost_saving,accuracy_check
+Symmetric mesh (1절),"자유도 절반 (절반메시 15,743 vs 거울복제 30,576 노드)",tunnel coupling 1.176 µeV — M03와 같은 자릿수로 물리적으로 타당
+Periodic BC (2절),4번의 선형 Poisson 풀이로 연속시간 전체 재구성 (시간스텝마다 다시 풀 필요 없음),양자점 크기 평균 6.29 nm로 이동 중 안정 — 단열적 셔틀링 확인
+1D quantum-well (3절),"3D 메시 불필요 — 1D 메시(250 요소) + 평면파로 2개 방향 처리, 자유도가 수천 배 감소",band mixing 없는 극한에서 해석해와 일치 (검증 완료)

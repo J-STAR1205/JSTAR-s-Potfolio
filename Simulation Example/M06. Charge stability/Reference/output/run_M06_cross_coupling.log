@@ -1,0 +1,157 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+濡쒕뱶�맖: energies((4,)), lever_arm((4, 2)), coulomb((4, 4))
+Baseline lever arm matrix:
+ [[0.00622386 0.76485381]
+ [0.76499903 0.00669277]
+ [0.006232   0.76449898]
+ [0.7645714  0.00658892]]
+Dominant mask:
+ [[False  True]
+ [ True False]
+ [False  True]
+ [ True False]]
+
+����몴 dominant lever arm (�룊洹�): 0.7647
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.5224997000186704 s.
+[alpha_cross=0.006] CSD sweep: 30.8 s
+  alpha_cross=0.006: slope_analytic=-0.008, slope_sim=0.206, rel.diff=2730.0%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.006926800007931888 s.
+[alpha_cross=0.02] CSD sweep: 29.7 s
+  alpha_cross=0.02: slope_analytic=-0.026, slope_sim=0.139, rel.diff=629.9%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.007793600030709058 s.
+[alpha_cross=0.05] CSD sweep: 29.4 s
+  alpha_cross=0.05: slope_analytic=-0.065, slope_sim=-0.235, rel.diff=259.5%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.00654580001719296 s.
+[alpha_cross=0.1] CSD sweep: 28.7 s
+  alpha_cross=0.1: slope_analytic=-0.131, slope_sim=0.206, rel.diff=257.8%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.00851500005228445 s.
+[alpha_cross=0.15] CSD sweep: 30.6 s
+  alpha_cross=0.15: slope_analytic=-0.196, slope_sim=-0.208, rel.diff=5.8%
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.007160099979955703 s.
+[alpha_cross=0.2] CSD sweep: 31.1 s
+  alpha_cross=0.2: slope_analytic=-0.262, slope_sim=0.183, rel.diff=169.8%
+
+================================================================================
+ alpha_cross  alpha_dominant  cross_to_dominant_ratio  slope_analytic  slope_simulated  relative_slope_diff_pct  wall_time_s
+       0.006        0.764731                 0.007846       -0.007846         0.206349              2730.026575    30.833846
+       0.020        0.764731                 0.026153       -0.026153         0.138584               629.895887    29.692748
+       0.050        0.764731                 0.065382       -0.065382        -0.235043               259.488840    29.358390
+       0.100        0.764731                 0.130765       -0.130765         0.206349               257.801595    28.744117
+       0.150        0.764731                 0.196147       -0.196147        -0.207570                 5.823555    30.578099
+       0.200        0.764731                 0.261530       -0.261530         0.182540               169.796859    31.097636
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M06. Charge stability\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 197.64391330000944 s

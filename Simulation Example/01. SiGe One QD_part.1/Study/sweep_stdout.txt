@@ -1,0 +1,333 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\01. SiGe One QD_part.1\Study\meshes\multiscale.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3710854             
+Triangular elements           16318               
+Tetrahedral elements          3694536             
+Total number of nodes         631750              
+Boundary physical names       gate_plunger, gate_confinement, 
+Region physical names         oxide, cap_top, cap_qd, cap_bot, well_qd, well, buffer_qd, buffer_top, buffer_bot, 
+================================================================================
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      672480              
+Triangular elements           0                   
+Tetrahedral elements          672480              
+Total number of nodes         119443              
+Boundary physical names                                     
+Region physical names         cap_qd, well_qd, buffer_qd,   
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -1.000000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 10.476480600002105 s.
+V_plunger=-1.00 V -> E0=2.0191 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.900000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 10.897258400000283 s.
+V_plunger=-0.90 V -> E0=2.0001 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.800000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 11.759202599991113 s.
+V_plunger=-0.80 V -> E0=1.9811 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.700000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 16.755561099998886 s.
+V_plunger=-0.70 V -> E0=1.9620 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.600000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 16.591342300001998 s.
+V_plunger=-0.60 V -> E0=1.9429 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 19.984032899999875 s.
+V_plunger=-0.50 V -> E0=1.9237 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.400000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 18.00292189999891 s.
+V_plunger=-0.40 V -> E0=1.9044 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.300000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 16.854782900001737 s.
+V_plunger=-0.30 V -> E0=1.8852 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.200000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 17.45224060000328 s.
+V_plunger=-0.20 V -> E0=1.8658 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.100000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 19.522549299988896 s.
+V_plunger=-0.10 V -> E0=1.8465 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.000000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 19.57647580000048 s.
+V_plunger=-0.00 V -> E0=1.8271 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.100000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 18.327813099997 s.
+V_plunger=0.10 V -> E0=1.8077 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.200000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 14.582031099998858 s.
+V_plunger=0.20 V -> E0=1.7882 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.300000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 13.726842500007479 s.
+V_plunger=0.30 V -> E0=1.7687 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.400000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 16.976561200004653 s.
+V_plunger=0.40 V -> E0=1.7492 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.500000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 15.356997500013676 s.
+V_plunger=0.50 V -> E0=1.7297 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.600000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 16.816284400003497 s.
+V_plunger=0.60 V -> E0=1.7101 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.700000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 15.996423499993398 s.
+V_plunger=0.70 V -> E0=1.6905 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.800000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 15.311368599999696 s.
+V_plunger=0.80 V -> E0=1.6709 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            0.900000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 15.458148300007451 s.
+V_plunger=0.90 V -> E0=1.6513 eV
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            1.000000000000      
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 14.632632499997271 s.
+V_plunger=1.00 V -> E0=1.6316 eV
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 804.458652500005 s

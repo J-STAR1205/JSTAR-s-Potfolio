@@ -1,0 +1,167 @@
+﻿python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:510: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:7 char:1
++ python -X utf8 adaptive_schrodinger.py *> "adaptive_schrodinger_run.l ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  analysis_private.plot_bands(
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\meshes\nanowire_adaptive.msh4
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      4059                
+Triangular elements           480                 
+Tetrahedral elements          3579                
+Total number of nodes         865                 
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+gate_bnd                                    gate            2.000000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               2.640e+00      5.891223     (-2.500e-09, 0.000e+00, 5.000e-09)  
+2               4.200e-01      2.025925     (7.939e-10, -1.920e-10, 1.500e-08)  
+3               1.787e-01      1.860646     (9.287e-11, -6.023e-10, 1.578e-08)  
+4               5.941e-02      1.783429     (-6.192e-10, -1.149e-10, 1.585e-08) 
+5               3.388e-02      1.579347     (4.967e-10, 4.934e-10, 1.573e-08)   
+6               3.171e-02      1.631760     (-8.873e-10, -3.678e-11, 5.000e-09) 
+7               3.704e-02      1.609233     (-5.710e-10, 5.805e-10, 5.000e-09)  
+8               3.417e-02      1.607014     (-5.730e-11, 4.259e-10, 5.000e-09)  
+9               5.087e-02      1.178296     (-5.730e-11, 4.259e-10, 5.000e-09)  
+10              3.096e-02      1.415608     (-5.730e-11, 4.259e-10, 5.000e-09)  
+11              1.417e-02      1.092676     (-2.796e-10, -8.827e-12, 5.000e-09) 
+12              6.238e-03      1.235457     (-2.796e-10, -8.827e-12, 5.000e-09) 
+13              2.700e-03      1.142461     (-2.796e-10, -8.827e-12, 5.000e-09) 
+14              1.161e-03      1.068093     (-2.796e-10, -8.827e-12, 5.000e-09) 
+15              4.980e-04      1.281386     (-2.796e-10, -8.827e-12, 5.000e-09) 
+16              2.134e-04      0.904355     (-2.796e-10, -8.827e-12, 5.000e-09) 
+17              9.136e-05      0.849463     (-2.796e-10, -8.827e-12, 5.000e-09) 
+18              3.908e-05      0.983574     (-2.796e-10, -8.827e-12, 5.000e-09) 
+19              1.675e-05      0.738953     (-2.796e-10, -8.827e-12, 5.000e-09) 
+20              7.141e-06      0.579922     (-2.796e-10, -8.827e-12, 5.000e-09) 
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.47
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      197052              
+Triangular elements           9024                
+Tetrahedral elements          188028              
+Total number of nodes         34655               
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+21              1.295e+00      34.489660    (1.941e-10, 2.123e-09, 1.549e-08)   
+22              2.857e-01      23.732060    (-4.360e-11, 4.746e-10, 4.491e-09)  
+23              5.063e-02      21.237598    (-2.184e-10, 5.689e-10, 5.000e-09)  
+24              2.105e-03      10.799701    (-1.315e-09, 4.377e-10, 5.000e-09)  
+25              1.755e-05      17.431892    (9.281e-10, 2.575e-10, 3.981e-09)   
+26              2.576e-07      6.480469     (7.957e-10, -6.407e-10, 1.608e-08)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 26 Poisson iterations.
+> 242.5678322315216 s.
+Average computation time / Poisson iteration is 9.329532825029814 s.
+--------------------------------------------------------------------------------
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      107461              
+Triangular elements           8843                
+Tetrahedral elements          98618               
+Total number of nodes         19188               
+Boundary physical names       gate_bnd,                     
+Region physical names         channel, channel_ox,          
+================================================================================
+If a browser window does not automatically open, please connect to http://127.0.0.1:57605/
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+2026-09-29 14:27:34.562 (2561.716s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BE503DA0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:27:34.644 (2561.798s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BE503DA0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:27:34.685 (2561.839s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BE503DA0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:27.762 (2914.911s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2FA40): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:27.821 (2914.969s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2FBE0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:27.880 (2915.029s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2FBE0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:38.578 (2925.727s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2F8A0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:38.666 (2925.815s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2FBE0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:38.693 (2925.842s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB2F8A0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-29 14:33:45.167 (2932.315s) [BFD4B33972C81B8C]          vtkmSlice.cxx:328   WARN| vtkmSlice (000001D1BDB30400): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:329: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  return analysis_private.plot_slice(
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 60.710625099993194 s.
+Energy levels (eV)
+[-0.89625838 -0.81952042 -0.73585312 -0.64558232 -0.54899957 -0.44426356 -0.33345659 -0.29128526 -0.29049829 -0.21611125]
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 2962.437222499997 s

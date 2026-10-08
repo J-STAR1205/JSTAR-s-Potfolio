@@ -1,0 +1,4 @@
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qutip\core\coefficient.py:199: FutureWarning: The signature f(t, args) is deprecated and will be removed in QuTiP 5.5. Please update your function to the pythonic signature f(t, **kwargs) to maintain compatibility.
+  op = FunctionCoefficient(base, args.copy(), style=function_style)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qutip\core\coefficient.py:199: FutureWarning: The signature f(t, args) is deprecated and will be removed in QuTiP 5.5. Please update your function to the pythonic signature f(t, **kwargs) to maintain compatibility.
+  op = FunctionCoefficient(base, args.copy(), style=function_style)

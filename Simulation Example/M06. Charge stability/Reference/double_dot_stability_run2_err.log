@@ -1,0 +1,16 @@
+2026-09-30 09:25:37.030 ( 164.136s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D18FFEA0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:25:37.210 ( 164.316s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D18FFD00): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:25:52.952 ( 180.058s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0775CF0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:25:53.169 ( 180.275s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0775E90): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:25:57.194 ( 184.300s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0776510): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:25:57.411 ( 184.517s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0775E90): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:26:00.890 ( 187.996s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0775E90): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-09-30 09:26:01.061 ( 188.167s) [CF13AB7FE765FFFA]          vtkmSlice.cxx:328   WARN| vtkmSlice (00000230D0776030): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.

@@ -1,0 +1,161 @@
+﻿conda.bat : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1579: UserWarning: 'phi' set as a Field will not persist after mesh refinement. Please consider using a function or co
+nstant instead.
+At line:4 char:1
++ & conda run -n qtcad python M03_mesh_convergence.py > "$m03\output\ru ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...nstant instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().set_potential(phi)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[罹먯떆�맂 理쒖쟻 detuning 濡쒕뱶] -1.041463e-04 V (�옱理쒖쟻�솕 �븞 �븿)
+================================================================================
+Case 0 (baseline): ����옣�맂 tunnel_coupling_final_potential.hdf5 �옱�궗�슜
+================================================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M03. Gate sweep\Reference\meshes\dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      5084                
+Triangular elements           404                 
+Tetrahedral elements          4680                
+Total number of nodes         1057                
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M03. Gate sweep\Reference\meshes\refined_dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1022018             
+Triangular elements           31435               
+Tetrahedral elements          990583              
+Total number of nodes         173626              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+[Case 0] baseline 硫붿떆 nodes=173626
+Loading mesh from file:
+ C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M03. Gate sweep\Reference\meshes\dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      5084                
+Triangular elements           404                 
+Tetrahedral elements          4680                
+Total number of nodes         1057                
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.589895853714      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.378e+00      0.529058     (-5.921e-25, -5.500e-08, 0.000e+00) 
+2               3.938e-02      0.128415     (-2.000e-08, 4.000e-08, -1.000e-08) 
+3               3.255e-03      0.133515     (6.667e-09, 4.000e-08, -5.000e-09)  
+4               1.436e-04      0.132283     (6.667e-09, 4.000e-08, -5.000e-09)  
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.37
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3906004             
+Triangular elements           75029               
+Tetrahedral elements          3830975             
+Total number of nodes         644774              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+5               2.570e-01      16.362221    (2.385e-08, 6.500e-08, -1.237e-08)  
+6               2.997e-02      11.905330    (-1.905e-08, -4.289e-08, -8.977e-09)
+7               1.512e-02      12.371732    (-1.786e-08, 4.211e-08, -7.465e-09) 
+8               2.875e-03      12.762905    (1.360e-08, -4.228e-08, -6.054e-09) 
+9               2.661e-04      21.388035    (1.613e-08, -4.263e-08, -6.060e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 9 Poisson iterations.
+> 316.4787085056305 s.
+Average computation time / Poisson iteration is 35.16430322329203 s.
+--------------------------------------------------------------------------------
+[Case 1] Poisson solve: 316.5 s, nodes=644774
+
+================================================================================
+CONVERGENCE TABLE
+================================================================================
+                                         case  mesh_nodes  wall_time_s  left_wiggle_amplitude_meV  left_wiggle_position_nm  right_wiggle_amplitude_meV  right_wiggle_position_nm
+    Case 0 (baseline, h_refined=0.8 dot-only)      173626     0.000000                  49.954224               -46.516610                   43.103756                 46.517487
+Case 1 (h_refined=0.5, +channel/source/drain)      644774   316.533773                  47.096873               -45.867467                   45.644913                 45.877710
+
+留덉��留� �몢 case 媛� 蹂��솕: left_amp rel=5.7%, right_amp rel=5.9%, pos_shift left=0.649nm, right=0.640nm
+�뙋�젙 (project practical criterion, rel<5% AND pos_shift<0.2nm): �븘吏� �닔�졃�븯吏� �븡�쓬 �삉�뒗 amplitude媛� �쑀吏��맖(physical feature 媛��뒫�꽦)
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M03. Gate sweep\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 350.23133999994025 s

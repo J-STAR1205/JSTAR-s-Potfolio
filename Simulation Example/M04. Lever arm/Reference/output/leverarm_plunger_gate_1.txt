@@ -1,0 +1,3 @@
+# Lever arm polynomial fit coefficients (highest degree first)
+-3.317464547026001976e-20
+2.972654785152765064e-20

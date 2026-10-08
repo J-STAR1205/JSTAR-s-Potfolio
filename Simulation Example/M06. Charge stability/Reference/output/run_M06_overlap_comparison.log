@@ -1,0 +1,525 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M06. Charge stability\Reference\meshes\dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      5084                
+Triangular elements           404                 
+Tetrahedral elements          4680                
+Total number of nodes         1057                
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.600000000000      
+barrier_gate_2_bnd                          gate            0.500000000000      
+plunger_gate_2_bnd                          gate            0.601000000000      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.378e+00      0.554322     (-5.921e-25, -5.500e-08, 0.000e+00) 
+2               3.918e-02      0.124306     (-2.000e-08, 4.000e-08, -1.000e-08) 
+3               3.266e-03      0.127858     (6.667e-09, 4.000e-08, -5.000e-09)  
+4               1.439e-04      0.127777     (6.667e-09, 4.000e-08, -5.000e-09)  
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.40
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1035049             
+Triangular elements           31792               
+Tetrahedral elements          1003257             
+Total number of nodes         175939              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+5               2.410e-01      4.249061     (2.216e-08, 4.466e-08, -1.227e-08)  
+6               3.167e-02      2.773145     (1.896e-08, 4.283e-08, -1.000e-08)  
+7               1.482e-02      3.084197     (1.622e-08, -4.142e-08, -8.513e-09) 
+8               2.854e-03      2.691184     (-1.466e-08, -4.191e-08, -1.000e-08)
+9               6.564e-04      2.752253     (-1.293e-08, 4.171e-08, -1.000e-08) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 9 Poisson iterations.
+> 72.72258496284485 s.
+Average computation time / Poisson iteration is 8.080287880367703 s.
+--------------------------------------------------------------------------------
+[�떆媛�] Poisson solve: 72.8 s
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      964000              
+Triangular elements           30100               
+Tetrahedral elements          933900              
+Total number of nodes         163684              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schr철dinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 23.957741000049282 s.
+[�떆媛�] Schrodinger solve: 28.6 s
+Energies (eV): [0.04107552 0.04182776 0.04603419 0.04677678]
+[consistency check] energies vs baseline(dqdfdsoi_energies.npy): max rel.err = 5.22e-06
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      964000              
+Triangular elements           30100               
+Tetrahedral elements          933900              
+Total number of nodes         163684              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, 
+================================================================================
+================================================================================
+Solving Poisson and Schrodinger in reference configuration.
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.600000000000      
+barrier_gate_2_bnd                          gate            0.500000000000      
+plunger_gate_2_bnd                          gate            0.601000000000      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.374e+00      5.384964     (-5.742e-09, 6.247e-08, 0.000e+00)  
+2               2.536e-02      6.975612     (3.052e-09, 4.350e-08, -3.512e-09)  
+3               1.002e-02      6.808115     (7.439e-09, 4.120e-08, -5.600e-09)  
+4               2.347e-03      6.998112     (-1.466e-08, -4.191e-08, -1.000e-08)
+5               7.319e-04      6.809575     (-1.293e-08, 4.171e-08, -1.000e-08) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 5 Poisson iterations.
+> 36.080151319503784 s.
+Average computation time / Poisson iteration is 7.216032266616821 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schr철dinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 26.170514500001445 s.
+Energies in reference bias configuration (eV)
+[0.04107538 0.04182786 0.04603435 0.04677672]
+================================================================================
+Calculating lever arm for: plunger_gate_1_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      2.680669     (-2.538e-08, -2.500e-08, 2.000e-09) 
+2               1.280e-04      2.434068     (-5.957e-09, 4.302e-08, -1.368e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 5.153271198272705 s.
+Average computation time / Poisson iteration is 2.5766401290893555 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schr철dinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 17.37871619994985 s.
+Energies for this gate (eV)
+[0.04106283 0.04106914 0.04601207 0.04602804]
+================================================================================
+Calculating lever arm for: plunger_gate_2_bnd
+================================================================================
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.000e-03      3.277070     (-2.538e-08, -2.500e-08, 2.000e-09) 
+2               1.647e-04      2.700474     (-5.957e-09, 4.302e-08, -1.368e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 2 Poisson iterations.
+> 6.015222787857056 s.
+Average computation time / Poisson iteration is 3.0076159238815308 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schr철dinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 21.556691300007515 s.
+Energies for this gate (eV)
+[0.04031051 0.04182114 0.04526978 0.04677001]
+[�떆媛�] LeverArmSolver: 168.4 s
+Lever arm matrix:
+ [[0.00623895 0.76486824]
+ [0.76503086 0.00672086]
+ [0.00631087 0.76456734]
+ [0.76464942 0.00670562]]
+[consistency check] lever_arm_matrix vs baseline: max rel.err = 1.77e-02
+Initializing Coulomb matrix calculation.
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+Computing contributions to block-row 0 (part 1/2)
+... Step 1 / 4 completed
+Done.
+Computing contributions to block-row 1 (part 1/2)
+... Step 1 / 3 completed
+Done.
+Computing contributions to block-row 2 (part 1/2)
+... Step 1 / 2 completed
+Done.
+Computing contributions to block-row 3 (part 1/2)
+... Step 1 / 1 completed
+Done.
+Computing contributions to block-row 0 (part 2/2)
+... Step 1 / 4 completed
+Done.
+Computing contributions to block-row 1 (part 2/2)
+... Step 1 / 3 completed
+Done.
+Computing contributions to block-row 2 (part 2/2)
+... Step 1 / 2 completed
+Done.
+Computing contributions to block-row 3 (part 2/2)
+... Step 1 / 1 completed
+Done.
+Computing Coulomb integrals...
+Done.
+Coulomb integrals computed in 35.26843599998392 s.
+[�떆媛�] Coulomb matrix (overlap=False): 35.3 s, shape=(4, 4), size=128 bytes
+Initializing Coulomb matrix calculation.
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+Computing contributions to block-row 0 (part 1/2)
+... Step 1 / 4 completed
+... Step 2 / 4 completed
+... Step 3 / 4 completed
+... Step 4 / 4 completed
+Done.
+Computing contributions to block-row 1 (part 1/2)
+... Step 1 / 3 completed
+... Step 2 / 3 completed
+... Step 3 / 3 completed
+Done.
+Computing contributions to block-row 2 (part 1/2)
+... Step 1 / 2 completed
+... Step 2 / 2 completed
+Done.
+Computing contributions to block-row 3 (part 1/2)
+... Step 1 / 1 completed
+Done.
+Computing contributions to block-row 0 (part 2/2)
+... Step 1 / 4 completed
+... Step 2 / 4 completed
+... Step 3 / 4 completed
+... Step 4 / 4 completed
+Done.
+Computing contributions to block-row 1 (part 2/2)
+... Step 1 / 3 completed
+... Step 2 / 3 completed
+... Step 3 / 3 completed
+Done.
+Computing contributions to block-row 2 (part 2/2)
+... Step 1 / 2 completed
+... Step 2 / 2 completed
+Done.
+Computing contributions to block-row 3 (part 2/2)
+... Step 1 / 1 completed
+Done.
+Computing Coulomb integrals...
+Done.
+Coulomb integrals computed in 39.330705199972726 s.
+[�떆媛�] Coulomb matrix (overlap=True): 39.3 s, shape=(4, 4, 4, 4), size=2048 bytes
+[consistency check] coulomb_no_overlap vs baseline: max rel.err = 5.83e-04
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.10804850002750754 s.
+[�떆媛�] CSD sweep (overlap=False): 31.7 s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 0.11457879998488352 s.
+[�떆媛�] CSD sweep (overlap=True): 64.2 s
+[consistency check] CSD(overlap=False) vs baseline addition_spectrum.txt: max rel.err = 4.78e-02
+
+�젙洹쒗솕�맂 CSD�쓽 理쒕�� �젅��� 李⑥씠 (overlap True vs False): 0.9910
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M06. Charge stability\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 461.3836590999854 s

@@ -1,0 +1,8 @@
+device,parameter,intent
+1. Nanowire,surf_charge_dnsty = -e * 5e17 /m^2,계면 트랩/고정전하의 전형적 크기 자릿수 (튜토리얼 기본값).
+1. Nanowire,"vol_charge = -5e (point-like Gaussian, sigma=1nm)",산화막 속 국소 전자 5개 분량의 포획전하를 모사 — 계면 전체에 퍼진 면전하와 대비되는 '국소' 결함 효과를 보기 위한 선택.
+2. FD-SOI,"point charge Q=+e, r=1e-10 m (smearing radius)",단일 포획 전자/정공 하나의 영향을 보기 위한 최소 단위 전하. 스미어링 반지름은 메시 특이점을 피하기 위한 수치적 정칙화(물리적 전하 크기가 아님).
+2. FD-SOI,"sweep: plunger_gate_1 중심에서 x, y 방향 각 3점",점전하가 dot 중심에 가까울수록(거리 0) 영향이 커질 것이라는 가설을 거리별로 검증하기 위한 설계 — 2절에서 실제로 거리 의존성을 피팅.
+3. Spherical dot,"diameter=4nm, Ge box=8nm, TB box=6nm","Ge 매트릭스가 충분히 두꺼워(dot 지름의 2배) 경계 영향을 줄이면서도, tight-binding 계산 비용(원자 수 ~9200개)을 감당할 수 있는 최소 크기로 절충."
+3. Spherical dot,diffusion_radius = diameter/10 = 0.4nm,Si/Ge 계면이 원자 몇 층(0.4nm ~ 격자상수 1개 정도) 폭으로 서서히 섞이는 현실적인 interdiffusion 폭을 모사.
+3. Spherical dot,external field 1e7 V/m (-z 방향),게이트 전압에 의한 균일 수직 전기장을 근사 — 파동함수를 한쪽으로 밀어 전기장 민감도(충전잡음 결합 경로)를 만들기 위함.

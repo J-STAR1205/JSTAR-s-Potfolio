@@ -1,0 +1,101 @@
+﻿python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:510: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:7 char:1
++ python -X utf8 band_alignment.py *> "band_alignment_run.log"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  analysis_private.plot_bands(
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:58: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  analysis_private.plot(
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M01. 3D Poisson\Reference\band_alignment.py:101: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:510: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  analysis_private.plot_bands(
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M01. 3D Poisson\Reference\band_alignment.py:141: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:58: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  analysis_private.plot(
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M01. 3D Poisson\Reference\meshes\band_alignment.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1500                
+Line elements                 1500                
+Point elements                0                   
+Total number of nodes         1501                
+Region physical names         left_barrier, well, right_barrier, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+The y and z directions are taken to be translationally invariant.
+--------------------------------------------------------------------------------
+Energy levels (eV)
+[0.76997686 0.80131405 0.85313421 0.92433784 1.01099512 1.06706163 1.07137673 1.10643078 1.14911842 1.17786023]
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+The y and z directions are taken to be translationally invariant.
+--------------------------------------------------------------------------------
+Energy levels (eV)
+[0.27117749 0.30618482 0.36443591 0.44574670 0.54975075 0.67569868 0.82186199 0.98254491 1.06856140 1.07127713]
+SiGe/Si/SiGe heterostructure: VBO = 0.057937 eV | CBO = 0.169713 eV
+SiGe/Ge/SiGe heterostructure: VBO = 0.176095 eV | CBO = 0.142431 eV
+-------------------------------
+     x     VBO (eV)    CBO (eV)
+-------------------------------
+  0.000   0.000000    0.000000
+  0.050   0.009175    0.027031
+  0.100   0.018543    0.054562
+  0.150   0.028102    0.082598
+  0.200   0.037855    0.111133
+  0.250   0.047800    0.140172
+  0.300   0.057937    0.169713
+  0.350   0.068267    0.199754
+  0.400   0.078789    0.230298
+  0.450   0.089503    0.261345
+  0.500   0.100410    0.292893
+  0.550   0.111509    0.324942
+  0.600   0.122800    0.357495
+  0.650   0.134284    0.390549
+  0.700   0.145961    0.424104
+  0.750   0.157830    0.458162
+  0.800   0.169891    0.492722
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 6.255139499990037 s

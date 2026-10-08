@@ -1,0 +1,5 @@
+file,exists,size_KB
+mos_edsr_log.txt,True,803.7607421875
+edsr_noise_log.txt,True,7.8525390625
+MOS_EDSR.py,True,6.70703125
+EDSR_noise.py,True,4.5185546875

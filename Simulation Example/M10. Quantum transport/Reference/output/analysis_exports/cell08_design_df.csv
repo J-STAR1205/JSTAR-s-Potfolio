@@ -1,0 +1,4 @@
+regime,barrier_gate_bias_V,plunger_gate_bias_V
+Off state,0.7,0.7
+Sequential tunneling,0.7,0.76
+On state,1.7,1.7

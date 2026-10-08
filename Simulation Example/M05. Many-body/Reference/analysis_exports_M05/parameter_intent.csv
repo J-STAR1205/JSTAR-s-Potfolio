@@ -1,0 +1,4 @@
+parameter,intent
+"nanowire r0=1.5nm, L=10nm, Lc=5nm, tox=1nm","실린더형 나노와이어 FET 표준 축소 모형 — 반지름 1.5nm는 강한 양자구속을 주기 위한 얇은 채널, source/drain 5nm는 접촉 저항을 무시할 만큼만 확장(도핑 1e20/cm^3로 사실상 금속처럼 취급)."
+num_states (manybody N=0~3 addition energy),소수 전자(0~3개) 영역의 Coulomb blockade를 보기 위한 최소 상태 수 — single-electron operating window 추정이 M05의 미팅 질문이므로 더 많은 전자 수는 불필요.
+exchange_2: num_states=2 (exact diagonalization),2-site Hubbard 모형(M16 1절)과 동일하게 dot1/dot2 국소화 궤도 2개만 기저로 사용 — exact diagonalization이어도 기저가 작아야 '2차 섭동론과 비교 가능한' 같은 물리적 설정이 유지됨.

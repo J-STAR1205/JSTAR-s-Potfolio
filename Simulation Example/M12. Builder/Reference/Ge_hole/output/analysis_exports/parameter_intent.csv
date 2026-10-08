@@ -1,0 +1,4 @@
+parameter,intent
+"char_len=5, dot_char_len=2.5 nm (메시 크기)","전체 소자 대비 조대한 기본 메시(5nm)로 전극 영역을 빠르게 만들고, dot 영역만 2배 조밀하게(2.5nm) — M13과 동일한 설계 철학(넓은 영역은 거칠게, 관심 영역만 세밀하게)."
+"substrate=10, SiGe_barrier=40, Ge_well=20, SiGe_cap=5, oxide=10 nm","Ge 정공 양자점 표준 헤테로구조 — 두꺼운 SiGe_barrier(40nm)가 기판 결함에서 양자우물을 격리하고, Ge_well(20nm)이 실제 정공이 가두어지는 층. 이 값들은 Practical App 튜토리얼 기본값으로, 측정 소자의 실제 성장 두께와 다를 수 있습니다."
+dot_height = Ge_well + SiGe_cap/2 + SiGe_barrier/5,dot 세분화 영역이 Ge_well 전체 + SiGe_cap 절반 + SiGe_barrier의 1/5만큼 위아래로 조금씩 더 뻗도록 설계 — 파동함수가 우물 경계에서 약간 새어나가는 부분까지 세밀한 메시로 덮기 위함(M09의 TB box가 plunger 아래만 포함한 것과 같은 설계 철학).

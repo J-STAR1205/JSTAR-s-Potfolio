@@ -1,0 +1,5 @@
+parameter,value
+barrier_gate_1 (V),0.6
+plunger_gate (V),0.707
+barrier_gate_2 (V),0.6
+Vds (V),0.001

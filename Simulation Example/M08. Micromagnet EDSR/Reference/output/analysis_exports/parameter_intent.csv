@@ -1,0 +1,4 @@
+parameter,intent
+"domain 120x80x40nm, confined layer 6nm","전자가 실제로 갇히는 Si confined 층을 얇게(6nm) 잡아 강한 수직 구속을 만들고, 그 아래 undoped channel(20nm)이 전위 완충, 맨 아래 doped층이 실질적 접지/저장소 역할."
+"top gate 원형, 반지름 10nm",단일 양자점을 만들기 위한 최소 크기 플런저 — 반지름이 작을수록 구속이 강해져 궤도 에너지 간격이 커짐(EDSR 동작에 필요한 깨끗한 2-level 분리).
+side gate (micromagnet 자리 표시),실제 micromagnet 대신 side gate 전압으로 등가 자기장 구배 효과를 모사 — M08의 실습 목표(실제 micromagnet B-gradient로 교체)의 출발점.

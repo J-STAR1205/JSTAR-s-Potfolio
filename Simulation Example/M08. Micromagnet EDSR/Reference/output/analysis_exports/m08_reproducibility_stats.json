@@ -1,0 +1,14 @@
+{
+  "f_Rabi_mean_Hz": 1701047.8965767396,
+  "f_Rabi_std_Hz": 1119.0200415525296,
+  "f_Rabi_max_minus_min_Hz": 2587.31496940949,
+  "f_Rabi_relative_spread_pct": 0.1521012415121474,
+  "f_qubit_mean_Hz": 16795493783.614092,
+  "f_qubit_std_Hz": 7.090007806267572,
+  "f_qubit_relative_spread_pct": 1.0340214834676941e-07,
+  "mesh_nodes_all_runs": [
+    22601,
+    22601,
+    22601
+  ]
+}

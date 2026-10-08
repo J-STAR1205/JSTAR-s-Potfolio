@@ -1,0 +1,4 @@
+2026-10-01 15:48:53.692 ( 534.667s) [2DC494FB206189CD]          vtkmSlice.cxx:328   WARN| vtkmSlice (0000017BE264A0F0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 16:24:18.968 (2659.943s) [2DC494FB206189CD]          vtkmSlice.cxx:328   WARN| vtkmSlice (0000017B8C926DF0): Viskores failed with message: vtkmSlice only generates triangles in the output.
+Falling back to the default VTK implementation.

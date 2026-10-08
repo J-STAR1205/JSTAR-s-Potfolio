@@ -1,0 +1,125 @@
+﻿conda : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\poisson_linear.py:23: UserWarning: Periodic boundary nodes overlap with essential boundary nodes. Esse
+ntial boundary conditions are not enforced at these nodes. 
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python periodic.py 2>&1 | Tee- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...t these nodes. :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().solve()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:197: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:216: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:259: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:285: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:293: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\periodic.py:301: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be 
+shown
+  plt.show()
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\meshes\periodic_fdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      28500               
+Triangular elements           2236                
+Tetrahedral elements          26264               
+Total number of nodes         5304                
+Boundary physical names       A0, A1, A2, back_gate_bnd, right_bnd, left_bnd, 
+Region physical names         gate_oxide, channel, oxide, buried_oxide, 
+================================================================================
+Calculating potential for activation 1 of 4
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+left_bnd, right_bnd                         periodic        -                   
+A0                                          dirichlet       1.000000000000      
+A1                                          dirichlet       0.000000000000      
+A2                                          dirichlet       0.000000000000      
+back_gate_bnd                               dirichlet       0.000000000000      
+--------------------------------------------------------------------------------
+Calculating potential for activation 2 of 4
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+left_bnd, right_bnd                         periodic        -                   
+A0                                          dirichlet       0.000000000000      
+A1                                          dirichlet       1.000000000000      
+A2                                          dirichlet       0.000000000000      
+back_gate_bnd                               dirichlet       0.000000000000      
+--------------------------------------------------------------------------------
+Calculating potential for activation 3 of 4
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+left_bnd, right_bnd                         periodic        -                   
+A0                                          dirichlet       0.000000000000      
+A1                                          dirichlet       0.000000000000      
+A2                                          dirichlet       1.000000000000      
+back_gate_bnd                               dirichlet       0.000000000000      
+--------------------------------------------------------------------------------
+Calculating potential for activation 4 of 4
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+left_bnd, right_bnd                         periodic        -                   
+A0                                          dirichlet       0.000000000000      
+A1                                          dirichlet       0.000000000000      
+A2                                          dirichlet       0.000000000000      
+back_gate_bnd                               dirichlet       1.000000000000      
+--------------------------------------------------------------------------------
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 5.242091399966739 s

@@ -1,0 +1,6 @@
+parameter,intent
+char_len=4nm,M03/M06 dqdfdsoi 메시(기본 요소크기 더 큼)보다 조밀한 기본 메시 — Builder가 처음부터 전체 소자를 비교적 세밀하게 짜도록.
+QD_w = plunger_w+barrier_w+2*pitch = 40nm,dot 영역이 인접 배리어 절반씩까지 포함하도록 — 양자점 포텐셜이 플런저 게이트 바로 아래뿐 아니라 배리어 쪽 일부까지 걸쳐 있다는 물리적 사실 반영.
+"V_set=1.25V, V_qubit=0.75V (double_dot_fdsoi.py 기본값)",SET이 큐비트보다 높은 전압으로 더 깊게 비워/채워지도록 설계 — SET은 여러 전자를 번갈아 넣고 빼며 Coulomb peak를 스캔해야 하므로 동작 범위가 더 넓어야 함.
+"Nmin=12, Nmax=14 (script 3) / Nmax=13 (script 4)","이미 어느 정도 차 있는 SET(12개 이상)에서 1~2개를 더 넣으며 Coulomb peak 2~3개를 관찰 — 0개부터 채우면 계산량이 커지므로, 이미 알려진 동작점 근방만 스캔하는 실무적 선택."
+"sp_params.bound_state_charges_only=True, sc_method='underrelax'","속박상태 전하만 자기무결 루프에 포함(연속상태 무시로 수렴 안정화), underrelax + adaptive_linear 믹싱(mixing_param=0.1)으로 느리지만 안정적인 수렴 — maxiter=2000까지 허용한 것은 이 소자의 수렴이 쉽지 않음을 시사."

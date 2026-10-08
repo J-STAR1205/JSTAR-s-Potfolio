@@ -1,0 +1,4 @@
+field,n_points,n_cells,x_range_nm,y_range_nm,z_range_nm
+"V (potential energy, full mesh)",2156328,539082,"(0.0, 300.0)","(-50.0, 50.0)","(-10.0, 10.0)"
+"psi0 (ground state, dot submesh)",1432728,358182,"(50.0, 250.00000000000003)","(-50.0, 50.0)","(-10.0, 10.0)"
+"psi1 (1st excited, dot submesh)",1432728,358182,"(50.0, 250.00000000000003)","(-50.0, 50.0)","(-10.0, 10.0)"

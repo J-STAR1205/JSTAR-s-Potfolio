@@ -1,0 +1,86 @@
+﻿python : C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\creating_dot.py:122: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:7 char:1
++ python -X utf8 creating_dot.py *> "creating_dot_run.log"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\creating_dot.py:137: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\io.py:45: UserWarning: A large file (>10MB) was produced. Please make sure this is compatible with your memory capabilites.
+  iop.save(
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\meshes\lead_dot_lead.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      539082              
+Triangular elements           0                   
+Tetrahedral elements          539082              
+Total number of nodes         99600               
+Region physical names         lead, barrier, dot, barrier2, lead2, 
+================================================================================
+If a browser window does not automatically open, please connect to http://127.0.0.1:56982/
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      358182              
+Triangular elements           0                   
+Tetrahedral elements          358182              
+Total number of nodes         66400               
+Boundary physical names                                     
+Region physical names         barrier, dot, barrier2,       
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 342.52615209999203 s.
+Energy levels (eV)
+[-0.00019066 0.00018525 0.00073543]
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\output\creating_dot_V.vtu
+Estimated file size: 9.681 MB
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\output\creating_dot_psi0.vtu
+Estimated file size: 10.965 MB
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\output\creating_dot_psi1.vtu
+Estimated file size: 10.987 MB
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M02. Schrodinger\Reference\output\creating_dot_data.vtm
+Estimated file size: 0.471 kB
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 1748.253523099993 s

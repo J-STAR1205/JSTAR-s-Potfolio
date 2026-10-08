@@ -1,0 +1,916 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[consistency check] PASSED (rel.err=0.00e+00)
+================================================================================
+COMPUTATIONAL COST ESTIMATE
+================================================================================
+Total noise realizations to compute: 805 (sum(N)=161 x R=5)
+================================================================================
+
+[N=1, repeat 1/5] computed in 0.1s
+[N=1, repeat 2/5] computed in 0.1s
+[N=1, repeat 3/5] computed in 0.1s
+[N=1, repeat 4/5] computed in 0.1s
+[N=1, repeat 5/5] computed in 0.1s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 10 completed
+... Step 2 / 10 completed
+... Step 3 / 10 completed
+... Step 4 / 10 completed
+... Step 5 / 10 completed
+... Step 6 / 10 completed
+... Step 7 / 10 completed
+... Step 8 / 10 completed
+... Step 9 / 10 completed
+... Step 10 / 10 completed
+Done.
+[N=10, repeat 1/5] computed in 0.6s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 10 completed
+... Step 2 / 10 completed
+... Step 3 / 10 completed
+... Step 4 / 10 completed
+... Step 5 / 10 completed
+... Step 6 / 10 completed
+... Step 7 / 10 completed
+... Step 8 / 10 completed
+... Step 9 / 10 completed
+... Step 10 / 10 completed
+Done.
+[N=10, repeat 2/5] computed in 0.6s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 10 completed
+... Step 2 / 10 completed
+... Step 3 / 10 completed
+... Step 4 / 10 completed
+... Step 5 / 10 completed
+... Step 6 / 10 completed
+... Step 7 / 10 completed
+... Step 8 / 10 completed
+... Step 9 / 10 completed
+... Step 10 / 10 completed
+Done.
+[N=10, repeat 3/5] computed in 0.7s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 10 completed
+... Step 2 / 10 completed
+... Step 3 / 10 completed
+... Step 4 / 10 completed
+... Step 5 / 10 completed
+... Step 6 / 10 completed
+... Step 7 / 10 completed
+... Step 8 / 10 completed
+... Step 9 / 10 completed
+... Step 10 / 10 completed
+Done.
+[N=10, repeat 4/5] computed in 0.6s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 10 completed
+... Step 2 / 10 completed
+... Step 3 / 10 completed
+... Step 4 / 10 completed
+... Step 5 / 10 completed
+... Step 6 / 10 completed
+... Step 7 / 10 completed
+... Step 8 / 10 completed
+... Step 9 / 10 completed
+... Step 10 / 10 completed
+Done.
+[N=10, repeat 5/5] computed in 0.6s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 50 completed
+... Step 2 / 50 completed
+... Step 3 / 50 completed
+... Step 4 / 50 completed
+... Step 5 / 50 completed
+... Step 6 / 50 completed
+... Step 7 / 50 completed
+... Step 8 / 50 completed
+... Step 9 / 50 completed
+... Step 10 / 50 completed
+... Step 11 / 50 completed
+... Step 12 / 50 completed
+... Step 13 / 50 completed
+... Step 14 / 50 completed
+... Step 15 / 50 completed
+... Step 16 / 50 completed
+... Step 17 / 50 completed
+... Step 18 / 50 completed
+... Step 19 / 50 completed
+... Step 20 / 50 completed
+... Step 21 / 50 completed
+... Step 22 / 50 completed
+... Step 23 / 50 completed
+... Step 24 / 50 completed
+... Step 25 / 50 completed
+... Step 26 / 50 completed
+... Step 27 / 50 completed
+... Step 28 / 50 completed
+... Step 29 / 50 completed
+... Step 30 / 50 completed
+... Step 31 / 50 completed
+... Step 32 / 50 completed
+... Step 33 / 50 completed
+... Step 34 / 50 completed
+... Step 35 / 50 completed
+... Step 36 / 50 completed
+... Step 37 / 50 completed
+... Step 38 / 50 completed
+... Step 39 / 50 completed
+... Step 40 / 50 completed
+... Step 41 / 50 completed
+... Step 42 / 50 completed
+... Step 43 / 50 completed
+... Step 44 / 50 completed
+... Step 45 / 50 completed
+... Step 46 / 50 completed
+... Step 47 / 50 completed
+... Step 48 / 50 completed
+... Step 49 / 50 completed
+... Step 50 / 50 completed
+Done.
+[N=50, repeat 1/5] computed in 2.9s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 50 completed
+... Step 2 / 50 completed
+... Step 3 / 50 completed
+... Step 4 / 50 completed
+... Step 5 / 50 completed
+... Step 6 / 50 completed
+... Step 7 / 50 completed
+... Step 8 / 50 completed
+... Step 9 / 50 completed
+... Step 10 / 50 completed
+... Step 11 / 50 completed
+... Step 12 / 50 completed
+... Step 13 / 50 completed
+... Step 14 / 50 completed
+... Step 15 / 50 completed
+... Step 16 / 50 completed
+... Step 17 / 50 completed
+... Step 18 / 50 completed
+... Step 19 / 50 completed
+... Step 20 / 50 completed
+... Step 21 / 50 completed
+... Step 22 / 50 completed
+... Step 23 / 50 completed
+... Step 24 / 50 completed
+... Step 25 / 50 completed
+... Step 26 / 50 completed
+... Step 27 / 50 completed
+... Step 28 / 50 completed
+... Step 29 / 50 completed
+... Step 30 / 50 completed
+... Step 31 / 50 completed
+... Step 32 / 50 completed
+... Step 33 / 50 completed
+... Step 34 / 50 completed
+... Step 35 / 50 completed
+... Step 36 / 50 completed
+... Step 37 / 50 completed
+... Step 38 / 50 completed
+... Step 39 / 50 completed
+... Step 40 / 50 completed
+... Step 41 / 50 completed
+... Step 42 / 50 completed
+... Step 43 / 50 completed
+... Step 44 / 50 completed
+... Step 45 / 50 completed
+... Step 46 / 50 completed
+... Step 47 / 50 completed
+... Step 48 / 50 completed
+... Step 49 / 50 completed
+... Step 50 / 50 completed
+Done.
+[N=50, repeat 2/5] computed in 2.8s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 50 completed
+... Step 2 / 50 completed
+... Step 3 / 50 completed
+... Step 4 / 50 completed
+... Step 5 / 50 completed
+... Step 6 / 50 completed
+... Step 7 / 50 completed
+... Step 8 / 50 completed
+... Step 9 / 50 completed
+... Step 10 / 50 completed
+... Step 11 / 50 completed
+... Step 12 / 50 completed
+... Step 13 / 50 completed
+... Step 14 / 50 completed
+... Step 15 / 50 completed
+... Step 16 / 50 completed
+... Step 17 / 50 completed
+... Step 18 / 50 completed
+... Step 19 / 50 completed
+... Step 20 / 50 completed
+... Step 21 / 50 completed
+... Step 22 / 50 completed
+... Step 23 / 50 completed
+... Step 24 / 50 completed
+... Step 25 / 50 completed
+... Step 26 / 50 completed
+... Step 27 / 50 completed
+... Step 28 / 50 completed
+... Step 29 / 50 completed
+... Step 30 / 50 completed
+... Step 31 / 50 completed
+... Step 32 / 50 completed
+... Step 33 / 50 completed
+... Step 34 / 50 completed
+... Step 35 / 50 completed
+... Step 36 / 50 completed
+... Step 37 / 50 completed
+... Step 38 / 50 completed
+... Step 39 / 50 completed
+... Step 40 / 50 completed
+... Step 41 / 50 completed
+... Step 42 / 50 completed
+... Step 43 / 50 completed
+... Step 44 / 50 completed
+... Step 45 / 50 completed
+... Step 46 / 50 completed
+... Step 47 / 50 completed
+... Step 48 / 50 completed
+... Step 49 / 50 completed
+... Step 50 / 50 completed
+Done.
+[N=50, repeat 3/5] computed in 2.9s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 50 completed
+... Step 2 / 50 completed
+... Step 3 / 50 completed
+... Step 4 / 50 completed
+... Step 5 / 50 completed
+... Step 6 / 50 completed
+... Step 7 / 50 completed
+... Step 8 / 50 completed
+... Step 9 / 50 completed
+... Step 10 / 50 completed
+... Step 11 / 50 completed
+... Step 12 / 50 completed
+... Step 13 / 50 completed
+... Step 14 / 50 completed
+... Step 15 / 50 completed
+... Step 16 / 50 completed
+... Step 17 / 50 completed
+... Step 18 / 50 completed
+... Step 19 / 50 completed
+... Step 20 / 50 completed
+... Step 21 / 50 completed
+... Step 22 / 50 completed
+... Step 23 / 50 completed
+... Step 24 / 50 completed
+... Step 25 / 50 completed
+... Step 26 / 50 completed
+... Step 27 / 50 completed
+... Step 28 / 50 completed
+... Step 29 / 50 completed
+... Step 30 / 50 completed
+... Step 31 / 50 completed
+... Step 32 / 50 completed
+... Step 33 / 50 completed
+... Step 34 / 50 completed
+... Step 35 / 50 completed
+... Step 36 / 50 completed
+... Step 37 / 50 completed
+... Step 38 / 50 completed
+... Step 39 / 50 completed
+... Step 40 / 50 completed
+... Step 41 / 50 completed
+... Step 42 / 50 completed
+... Step 43 / 50 completed
+... Step 44 / 50 completed
+... Step 45 / 50 completed
+... Step 46 / 50 completed
+... Step 47 / 50 completed
+... Step 48 / 50 completed
+... Step 49 / 50 completed
+... Step 50 / 50 completed
+Done.
+[N=50, repeat 4/5] computed in 2.8s
+Computing qubit dynamics under multiple realizations of random noise
+... Step 1 / 50 completed
+... Step 2 / 50 completed
+... Step 3 / 50 completed
+... Step 4 / 50 completed
+... Step 5 / 50 completed
+... Step 6 / 50 completed
+... Step 7 / 50 completed
+... Step 8 / 50 completed
+... Step 9 / 50 completed
+... Step 10 / 50 completed
+... Step 11 / 50 completed
+... Step 12 / 50 completed
+... Step 13 / 50 completed
+... Step 14 / 50 completed
+... Step 15 / 50 completed
+... Step 16 / 50 completed
+... Step 17 / 50 completed
+... Step 18 / 50 completed
+... Step 19 / 50 completed
+... Step 20 / 50 completed
+... Step 21 / 50 completed
+... Step 22 / 50 completed
+... Step 23 / 50 completed
+... Step 24 / 50 completed
+... Step 25 / 50 completed
+... Step 26 / 50 completed
+... Step 27 / 50 completed
+... Step 28 / 50 completed
+... Step 29 / 50 completed
+... Step 30 / 50 completed
+... Step 31 / 50 completed
+... Step 32 / 50 completed
+... Step 33 / 50 completed
+... Step 34 / 50 completed
+... Step 35 / 50 completed
+... Step 36 / 50 completed
+... Step 37 / 50 completed
+... Step 38 / 50 completed
+... Step 39 / 50 completed
+... Step 40 / 50 completed
+... Step 41 / 50 completed
+... Step 42 / 50 completed
+... Step 43 / 50 completed
+... Step 44 / 50 completed
+... Step 45 / 50 completed
+... Step 46 / 50 completed
+... Step 47 / 50 completed
+... Step 48 / 50 completed
+... Step 49 / 50 completed
+... Step 50 / 50 completed
+Done.
+[N=50, repeat 5/5] computed in 2.9s
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[N=100, repeat 1/5] computed in 5.8s
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[N=100, repeat 2/5] computed in 5.9s
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[N=100, repeat 3/5] computed in 7.0s
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[N=100, repeat 4/5] computed in 6.5s
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[N=100, repeat 5/5] computed in 5.8s
+
+Total wall time: 48.8s
+[N=1] max|mean-mean_N100|=0.3492, RMS diff=0.1183, mean pointwise std(across 5 repeats)=0.1833
+[N=10] max|mean-mean_N100|=0.0527, RMS diff=0.0229, mean pointwise std(across 5 repeats)=0.0622
+[N=50] max|mean-mean_N100|=0.0519, RMS diff=0.0242, mean pointwise std(across 5 repeats)=0.0407
+[N=100] max|mean-mean_N100|=0.0000, RMS diff=0.0000, mean pointwise std(across 5 repeats)=0.0181
+
+================================================================================
+ N_realizations  mean_of_mean_sigz_at_t0  max_pointwise_std_across_repeats  mean_pointwise_std_across_repeats  max_abs_diff_vs_N100  rms_diff_vs_N100
+              1                      1.0                          0.465329                           0.183289              0.349234          0.118293
+             10                      1.0                          0.179248                           0.062229              0.052682          0.022907
+             50                      1.0                          0.088754                           0.040697              0.051863          0.024160
+            100                      1.0                          0.040837                           0.018055              0.000000          0.000000
+
+================================================================================
+REALIZATION INDEPENDENCE CHECK (num_runs=1, called 3 times)
+================================================================================
+max|run_0 - run_1| = 0.823914 (�꽌濡� �떎由� (�젙�긽))
+max|run_0 - run_2| = 1.260659 (�꽌濡� �떎由� (�젙�긽))
+max|run_1 - run_2| = 0.700705 (�꽌濡� �떎由� (�젙�긽))
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 53.93617140001152 s

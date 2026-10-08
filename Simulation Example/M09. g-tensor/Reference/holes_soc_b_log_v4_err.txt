@@ -1,0 +1,2 @@
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\schrodinger.py:67: UserWarning: The confinement potential is zero everywhere. Did you forget to set the confinement potential using, e.g., set_V_fom_phi?
+  super().solve(k=k, mixing=mixing)

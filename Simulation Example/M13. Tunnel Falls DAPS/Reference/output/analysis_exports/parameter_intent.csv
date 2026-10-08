@@ -1,0 +1,9 @@
+parameter,intent
+gate_pitch = 60 nm,"게이트 열 간격. Marcks et al. Nat. Commun. 16, 11381 (2025) 등 3개 실험 논문의 Tunnel Falls 소자 pitch 값을 그대로 채용 (1-tunnel_falls_builder.py 26-29행 주석)."
+"finger_length=30, gate_span=90 nm","Marcks et al. Fig. 1a 레이아웃을 근사하도록 선택한 모델링 값 (실험 논문에 정확한 수치가 없어 저자가 직접 추정, 주석에 명시)."
+"quantum_well_thick=4.6, upper_barrier=50, si_cap=1 nm","Marcks et al. Fig. 1b(4.6 nm Si0.972Ge0.028 양자우물), George et al. Nano Lett. 25 (2025, 30-75 nm SiGe barrier/1-2 nm Si cap) 범위 안에서 선택."
+"char_len=20, dot_char_len=10 nm","전체 소자 대비 조대한 기본 메시(20 nm)로 빠르게 초기 형상을 만들고, dot 영역만 2배 조밀하게(10 nm) 잡아 — 이후 적응 정제가 dot 근처를 집중적으로 더 세분화할 출발점을 제공."
+eta0 = 0.30 (적응 Poisson 오차 기준),"M03/M01 등 다른 모듈의 adaptive Poisson 기본값과 같은 자릿수. 1절에서 보듯 4회 반복 후 node 수가 6,550 -> 481,379로 73배 커졌는데, 이는 초기 메시가 매우 거칠었다는 뜻 — 더 엄격한 eta0는 계산 비용을 더 키움(2절의 지점당 ~100-150 s가 이미 상당함)."
+"detuning range ±10 mV, 11점",4절에서 확인되는 궤도 들뜸(~190 µeV)보다 훨씬 좁은 전압창 — anticrossing 근방만 조밀하게 보려는 의도. 11점(2 mV 간격)은 5절의 2-level 피팅에 필요한 최소한의 해상도.
+num_states = 8,"이중점 x 2-valley 최소 모형의 바닥 궤도 묶음(4개) + 다음 궤도 묶음(4개)까지 보기 위한 선택 — 4절에서 실제로 이 8개가 정확히 두 그룹으로 나뉘는 것으로 확인됨, 즉 과소/과다 선택이 아니었음."
+"mean_valley_splitting=200 µeV, corr. length x=19.2nm / y=1000nm","튜토리얼 기본값(실측 아님). x 방향(게이트 피치 방향)은 짧은 상관길이로 계면이 빠르게 변한다고 가정하고, y(폭 방향)는 1000 nm로 사실상 균일하다고 가정 — 6절에서 이 가정을 우리 M07 TB 결과로 교체하는 방법을 설명."

@@ -1,0 +1,266 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[15:33:05] INFO     Loading layout from cache                      masks.py:805
+                    C:\Users\norma\AppData\Local\nanoacademic\qtca             
+                    d\Cache\builder\layout_c5db4b8b797bf1bbb785bfc             
+                    629b5eb4a8572fa539539115e60a670364b0736a3_TOP_             
+                    name_None_-9.pkl                                           
+           INFO     Adding mask 'dot-region' from cache            masks.py:814
+           INFO     Adding mask 'gates' from cache                 masks.py:814
+           INFO     Adding mask 'substrate' from cache             masks.py:814
+Layout
+├── Mask 1 "dot-region"
+│   └── 0  Polygon  "dot_region" (4)
+├── Mask 4 "gates"
+│   ├── 0  Polygon  "P2" (6)
+│   ├── 1  Polygon  "P1" (6)
+│   ├── 2  Polygon  "BC" (4)
+│   ├── 3  Polygon  "BR" (4)
+│   └── 4  Polygon  "BL" (4)
+└── Mask 0 "substrate"
+    └── 0  Polygon  "substrate" (4)
+           INFO     Using mask 'substrate' (implicitly          builder.py:1365
+                    selecting shapes [Polygon 0 'substrate'])                  
+[15:33:06] INFO     Extruding shape 0 from mask 'substrate' with builder.py:615
+                    name 'substrate' by 10 at z=0                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'substrate_bottom'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'substrate_side'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'substrate_top'                                  
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'substrate'                                      
+           INFO     Setting z-coordinate to 10                  builder.py:1291
+           INFO     Extruding shape 0 from mask 'substrate' with builder.py:615
+                    name 'substrate' by 40 at z=10                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_barrier_bottom'                            
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_barrier_side'                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_barrier_top'                               
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'SiGe_barrier'                                   
+           INFO     Identifying potential intersections...       builder.py:615
+[15:33:07] INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 50                  builder.py:1291
+           INFO     Extruding shape 0 from mask 'substrate' with builder.py:615
+                    name 'substrate' by 20 at z=50                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'Ge_well_bottom'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'Ge_well_side'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'Ge_well_top'                                    
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'Ge_well'                                        
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 70                  builder.py:1291
+           INFO     Extruding shape 0 from mask 'substrate' with builder.py:615
+                    name 'substrate' by 5 at z=70                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap_bottom'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap_side'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap_top'                                   
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'SiGe_cap'                                       
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 75                  builder.py:1291
+           INFO     Extruding shape 0 from mask 'substrate' with builder.py:615
+                    name 'substrate' by 10 at z=75                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_bottom'                                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_side'                                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'oxide_top'                                      
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'oxide'                                          
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 85                  builder.py:1291
+           INFO     Setting z-coordinate to 42.0                builder.py:1291
+           INFO     Using mask 'dot-region' (implicitly         builder.py:1365
+                    selecting shapes [Polygon 0 'dot_region'])                 
+           INFO     Extruding shape 0 from mask 'dot-region'     builder.py:615
+                    with name 'dot_region' by 30.5 at z=42.0                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_region_bottom'                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_region_side'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_region_top'                                 
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'dot_region'                                     
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'Ge_well.dot_region'                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'Ge_well_bottom.dot-region'                      
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap.dot_region_top'                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'Ge_well.dot_region_side'                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap.dot_region_side'                       
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'SiGe_barrier.dot_region'                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_barrier.dot_region_side'                   
+[15:33:08] INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_cap_bottom.dot-region'                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'SiGe_cap.dot_region'                            
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'SiGe_barrier.dot_region_bottom'                 
+           INFO     Setting z-coordinate to 72.5                builder.py:1291
+           INFO     Using mask 'gates' (implicitly selecting    builder.py:1365
+                    shapes [Polygon 2 'BC', Polygon 3 'BR',                    
+                    Polygon 4 'BL', Polygon 0 'P2', Polygon 1                  
+                    'P1'])                                                     
+           INFO     Setting z-coordinate to 85.0                builder.py:1291
+           INFO     Creating a surface from shape 2 with name    builder.py:256
+                    'BC' from mask 'gates' at z=85.0                           
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'BC'                                             
+           INFO     Creating a surface from shape 3 with name    builder.py:256
+                    'BR' from mask 'gates' at z=85.0                           
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'BR'                                             
+           INFO     Creating a surface from shape 4 with name    builder.py:256
+                    'BL' from mask 'gates' at z=85.0                           
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'BL'                                             
+           INFO     Creating a surface from shape 0 with name    builder.py:256
+                    'P2' from mask 'gates' at z=85.0                           
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P2'                                             
+           INFO     Creating a surface from shape 1 with name    builder.py:256
+                    'P1' from mask 'gates' at z=85.0                           
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P1'                                             
+           INFO     Identifying potential intersections...       builder.py:256
+           INFO     Fragmenting...                               builder.py:256
+           INFO     Preparing to mesh                            builder.py:952
+           INFO     Detecting appropriate random factor          builder.py:952
+           INFO     Increased random factor from 1e-09 to        builder.py:952
+                    2.538638571882823e-08                                      
+[15:33:09] INFO     Random factor is now appropriate             builder.py:952
+           INFO     Meshing                                      builder.py:952
+Info    : Meshing 3D...
+Info    : 3D Meshing 8 volumes with 1 connected component
+Info    : Input mesh hash 2b10710e3963631e
+Info    : Creating an empty mesh with 21851 vertices
+Info    : Initialization of tet. mesh
+Info    : Delaunay of      21847 points on   1 threads - mesh.nvert: 4         
+Info    : Recovering 58 missing facet(s)
+Info    : Recover Delaunay
+Info    : All volumes of the BRep were found and colorized accordingly
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      56896 points on   1 threads - mesh.nvert: 21851     
+Info    :           -      50427 points filtered
+Info    :           =       6469 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      36955 points on   1 threads - mesh.nvert: 28320     
+Info    :           -      27773 points filtered
+Info    :           =       9182 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      12499 points on   1 threads - mesh.nvert: 37502     
+Info    :           -       7858 points filtered
+Info    :           =       4641 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of       1459 points on   1 threads - mesh.nvert: 42143     
+Info    :           -        589 points filtered
+Info    :           =        870 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of        104 points on   1 threads - mesh.nvert: 43013     
+Info    :           -         23 points filtered
+Info    :           =         81 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of         10 points on   1 threads - mesh.nvert: 43094     
+Info    :           -          2 points filtered
+Info    :           =          8 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Improving       8832 tet. on   1 thrd (S & ER)
+Info    : Improving        623 tet. on   1 thrd (S & ER)
+Info    : Improving        364 tet. on   1 thrd (S & ER)
+Info    : Improving        332 tet. on   1 thrd (S & ER)
+Info    : Improving        330 tet. on   1 thrd (S & ER)
+Info    : Improving        330 tet. on   1 thrd (GSC)
+Info    : Improving        228 tet. on   1 thrd (S & ER)
+Info    : Improving        220 tet. on   1 thrd (S & ER)
+Info    : Improving        219 tet. on   1 thrd (S & ER)
+Info    : Improving        219 tet. on   1 thrd (GSC)
+Info    : Improving        216 tet. on   1 thrd (S & ER)
+Info    : Improving        216 tet. on   1 thrd (S & ER)
+Info    : Improving        216 tet. on   1 thrd (GSC)
+Info    : Improving        215 tet. on   1 thrd (S & ER)
+Info    :  	Final tet. mesh contains 253788 tetrahedra
+Info    :  	Final tet. mesh contains 43102 vertices
+Info    : tEmptyMesh  	 = 	    0.121
+Info    : tVerifyBnd  	 = 	    0.018
+Info    : tBndRecovery	 = 	    0.224
+Info    : tConvertMesh	 = 	    0.025
+Info    : tRefine     	 = 	    0.631
+Info    : tOptimize   	 = 	    0.270
+Info    : Done meshing 3D (Wall 1.37663s, CPU 1.20312s)
+Info    : 43102 nodes 281072 elements
+[15:33:13] INFO     Checking mesh conformity                     builder.py:952
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\..\AppData\Local\Temp\tmp                
+                    184o1uxg\mesh.msh                                          
+[15:33:17] INFO     Checking connectivity                        builder.py:952
+nodes:   0%|          | 0/43102 [00:00<?, ?it/s]nodes:   0%|          | 0/43102 [00:00<?, ?it/s]nodes: 100%|██████████| 43102/43102 [00:00<00:00, 682366.96it/s]nodes: 100%|██████████| 43102/43102 [00:00<00:00, 677226.45it/s]nodes: 100%|██████████| 43102/43102 [00:00<00:00, 672910.88it/s]
+           INFO     Writing meshes\ge_dqd.msh                   builder.py:1584
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\..\..\..\Temp\m12_ge_hole                
+                    \ge_dqd.xao                                                
+Done.
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 12.372849399980623 s

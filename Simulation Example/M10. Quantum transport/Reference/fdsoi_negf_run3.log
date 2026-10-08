@@ -1,0 +1,188 @@
+﻿python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\transport\negf_poisson.py:92: UserWarning: 'phi' set as a Field will not persist after mesh refinement. Please consider using a function o
+r constant instead.
+At line:5 char:1
++ python -X utf8 fdsoi_negf.py *> fdsoi_negf_run3.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...nstant instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().__init__(
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1541: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or constant inste
+ad.
+  super().set_charge_density(rho, region)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\transport\negf_poisson.py:117: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or consta
+nt instead.
+  return super().solve()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1541: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or constant inste
+ad.
+  super().set_charge_density(rho, region)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\transport\negf_poisson.py:117: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or consta
+nt instead.
+  return super().solve()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1541: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or constant inste
+ad.
+  super().set_charge_density(rho, region)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\transport\negf_poisson.py:117: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or consta
+nt instead.
+  return super().solve()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1541: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or constant inste
+ad.
+  super().set_charge_density(rho, region)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\transport\negf_poisson.py:117: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or consta
+nt instead.
+  return super().solve()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1541: UserWarning: 'rho' set as a Field will not persist after mesh refinement. Please consider using a function or constant inste
+ad.
+  super().set_charge_density(rho, region)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M10. Quantum transport\Reference\meshes\fdsoi_negf.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      98505               
+Triangular elements           2406                
+Tetrahedral elements          96099               
+Total number of nodes         18928               
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_bnd, barrier_gate_2_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         top_ox, source, channel, drain, side_bot_ox, 
+================================================================================
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      6842                
+Triangular elements           44                  
+Tetrahedral elements          6798                
+Total number of nodes         1976                
+Boundary physical names       source_bnd, drain_bnd,        
+Region physical names         source, channel, drain,       
+================================================================================
+================================================================================
+NEGF-POISSON SOLVER INITIALIZED
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 1
+Maximum absolute error: 17.318695377048527 V.
+Computation time: 13.907413959503174 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 2
+Maximum absolute error: 5.084243623422189 V.
+Computation time: 13.99080204963684 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 3
+Maximum absolute error: 5.090038435468031 V.
+Computation time: 13.646022081375122 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 4
+Maximum absolute error: 5.801788324110103 V.
+Computation time: 18.92118787765503 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 5
+Maximum absolute error: 1.4261752871224003 V.
+Computation time: 24.0725359916687 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 6
+Maximum absolute error: 1.1068557110060335 V.
+Computation time: 24.59595227241516 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 7
+Maximum absolute error: 1.280933169452524 V.
+Computation time: 21.84252095222473 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 8
+Maximum absolute error: 0.5953001024716824 V.
+Computation time: 55.08147835731506 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 9
+Maximum absolute error: 0.49274462112764805 V.
+Computation time: 55.38845872879028 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 10
+Maximum absolute error: 0.5063610118560427 V.
+Computation time: 52.326382637023926 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 11
+Maximum absolute error: 0.11955459446631889 V.
+Computation time: 54.91255211830139 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 12
+Maximum absolute error: 0.10545031921009107 V.
+Computation time: 29.6544029712677 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 13
+Maximum absolute error: 0.09659759223076281 V.
+Computation time: 113.16954040527344 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 14
+Maximum absolute error: 0.031235919193528527 V.
+Computation time: 78.32231855392456 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 15
+Maximum absolute error: 0.017803901102525055 V.
+Computation time: 59.454381704330444 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 16
+Maximum absolute error: 0.021197500542401215 V.
+Computation time: 89.80805850028992 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 17
+Maximum absolute error: 0.013077317315675296 V.
+Computation time: 58.75937008857727 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 18
+Maximum absolute error: 0.014414182298901013 V.
+Computation time: 87.57023358345032 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 19
+Maximum absolute error: 0.01217030605830316 V.
+Computation time: 54.12809157371521 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 20
+Maximum absolute error: 0.006969662649152442 V.
+Computation time: 99.13914346694946 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 21
+Maximum absolute error: 0.0072277527216588755 V.
+Computation time: 43.35800242424011 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 22
+Maximum absolute error: 0.007736467752094578 V.
+Computation time: 37.57874774932861 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 23
+Maximum absolute error: 0.000997105958132849 V.
+Computation time: 98.21664071083069 s.
+--------------------------------------------------------------------------------
+NEGF-Poisson iteration 24

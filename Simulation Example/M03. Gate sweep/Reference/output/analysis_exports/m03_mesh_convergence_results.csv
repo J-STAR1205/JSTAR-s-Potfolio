@@ -1,0 +1,3 @@
+case,mesh_nodes,wall_time_s,left_wiggle_amplitude_meV,left_wiggle_position_nm,right_wiggle_amplitude_meV,right_wiggle_position_nm
+Case 0 (baseline, h_refined=0.8 dot-only),173626,0.0,3.552278,-48.738917,2.722854,49.553690
+Case 1 (h_refined=0.5, +channel/source/drain),644774,316.533773,NaN,NaN,1.003136,47.114592

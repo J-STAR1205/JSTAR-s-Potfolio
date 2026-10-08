@@ -1,0 +1,5 @@
+case,junction,amplitude_mV,min_y_nm,max_y_nm,pair_separation_nm,n_local_minima,n_local_maxima,n_extrema
+"Case 0 (baseline, h_refined=0.8 dot-only)",left (source/channel),3.552277764346565,-47.84979686904554,-48.738917015346566,0.8891201463010248,1.0,2.0,
+"Case 0 (baseline, h_refined=0.8 dot-only)",right (channel/drain),2.7228538693199327,48.24009203635811,49.55369044097347,1.3135984046153624,1.0,2.0,
+"Case 1 (h_refined=0.5, +channel/source/drain)",left (source/channel),,,,,,,0.0
+"Case 1 (h_refined=0.5, +channel/source/drain)",right (channel/drain),1.0031358063070512,47.51171911273319,47.114591556578205,0.3971275561549845,1.0,2.0,

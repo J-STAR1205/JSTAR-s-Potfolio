@@ -1,0 +1,10 @@
+# Copyrighted papers (not redistributable)
+*.pdf
+
+# Local Claude Code settings
+.claude/
+
+# Jupyter / Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

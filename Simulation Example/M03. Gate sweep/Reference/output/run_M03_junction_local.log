@@ -1,0 +1,235 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[罹먯떆�맂 理쒖쟻 detuning 濡쒕뱶] -1.041463e-04 V
+Loading mesh from file:
+ C:\Users\norma\AppData\Local\Temp\claude\C--Users-norma-Desktop------QTCAD-Simulation\1c089a01-c171-407b-9be8-42b4f3db9e1e\scratchpad\ascii_geo\dqdfdsoi_junction_local_h2.0.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      33935               
+Triangular elements           1594                
+Tetrahedral elements          32341               
+Total number of nodes         6076                
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.589895853714      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.374e+00      0.467336     (-1.465e-08, 5.989e-08, 0.000e+00)  
+2               1.836e-02      0.143609     (2.769e-09, 4.500e-08, -5.007e-09)  
+3               1.535e-02      0.146358     (-6.005e-09, -4.000e-08, -7.039e-09)
+4               7.526e-03      0.146126     (0.000e+00, 4.000e-08, -6.536e-09)  
+5               7.366e-04      0.149474     (-7.000e-09, -4.000e-08, -1.655e-09)
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.40
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1294856             
+Triangular elements           36102               
+Tetrahedral elements          1258754             
+Total number of nodes         219784              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+6               3.008e-01      3.717679     (7.542e-09, -6.500e-08, -1.495e-08) 
+7               2.661e-02      2.689958     (4.148e-09, -5.593e-08, -1.000e-08) 
+8               2.218e-03      2.457773     (5.598e-09, -4.202e-08, -6.610e-09) 
+9               1.901e-04      2.379403     (-8.661e-09, 4.242e-08, -6.827e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 9 Poisson iterations.
+> 68.20340085029602 s.
+Average computation time / Poisson iteration is 7.578156656689114 s.
+--------------------------------------------------------------------------------
+[junction_local_h2.0] start_nodes=6076, final_nodes=219784, time=68.2s
+Loading mesh from file:
+ C:\Users\norma\AppData\Local\Temp\claude\C--Users-norma-Desktop------QTCAD-Simulation\1c089a01-c171-407b-9be8-42b4f3db9e1e\scratchpad\ascii_geo\dqdfdsoi_junction_local_h1.0.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      212301              
+Triangular elements           4630                
+Tetrahedral elements          207671              
+Total number of nodes         35857               
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.589895853714      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.374e+00      0.608708     (-1.424e-08, 5.801e-08, 0.000e+00)  
+2               2.546e-02      0.483506     (3.389e-09, 4.391e-08, -3.383e-09)  
+3               9.265e-03      0.491256     (1.433e-09, -4.161e-08, -6.574e-09) 
+4               3.129e-03      0.477705     (-4.456e-09, -4.153e-08, -4.513e-09)
+5               2.141e-04      0.475672     (4.696e-09, -4.174e-08, -3.546e-09) 
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.27
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1544330             
+Triangular elements           38697               
+Tetrahedral elements          1505633             
+Total number of nodes         261471              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+6               3.172e-01      4.251705     (-2.000e-08, 6.500e-08, -1.462e-08) 
+7               1.162e-01      3.053575     (-1.961e-09, -6.088e-08, -1.000e-08)
+8               1.904e-02      2.837057     (-2.659e-09, -6.038e-08, -1.000e-08)
+9               6.335e-04      2.747573     (-2.659e-09, -6.038e-08, -1.000e-08)
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 9 Poisson iterations.
+> 85.49296045303345 s.
+Average computation time / Poisson iteration is 9.49921883477105 s.
+--------------------------------------------------------------------------------
+[junction_local_h1.0] start_nodes=35857, final_nodes=261471, time=85.6s
+Loading mesh from file:
+ C:\Users\norma\AppData\Local\Temp\claude\C--Users-norma-Desktop------QTCAD-Simulation\1c089a01-c171-407b-9be8-42b4f3db9e1e\scratchpad\ascii_geo\dqdfdsoi_junction_local_h0.5.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1636061             
+Triangular elements           15440               
+Tetrahedral elements          1620621             
+Total number of nodes         267824              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.570000000000      
+plunger_gate_2_bnd                          gate            0.589895853714      
+barrier_gate_3_bnd                          gate            0.500000000000      
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.375e+00      7.046990     (-9.217e-09, -5.614e-08, 0.000e+00) 
+2               2.501e-02      8.287789     (4.600e-09, 4.423e-08, -3.483e-09)  
+3               8.476e-03      7.418332     (-3.042e-09, -4.205e-08, -5.531e-09)
+4               2.265e-03      6.951752     (-1.240e-10, -4.250e-08, -4.762e-09)
+5               1.492e-04      5.305093     (2.746e-09, -4.260e-08, -4.757e-09) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 5 Poisson iterations.
+> 37.975329637527466 s.
+Average computation time / Poisson iteration is 7.595068502426147 s.
+--------------------------------------------------------------------------------
+[junction_local_h0.5] start_nodes=267824, final_nodes=267824, time=38.4s
+
+====================================================================================================
+JUNCTION-LOCAL CONVERGENCE TABLE
+====================================================================================================
+               case  start_nodes  final_nodes  wall_time_s  left_wiggle_amplitude_meV  left_wiggle_position_nm  right_wiggle_amplitude_meV  right_wiggle_position_nm
+junction_local_h2.0         6076       219784    68.236030                   0.663466               -49.167927                    0.778338                  48.08423
+junction_local_h1.0        35857       261471    85.577769                   0.249153               -49.436785                         NaN                       NaN
+junction_local_h0.5       267824       267824    38.367909                        NaN                      NaN                         NaN                       NaN
+[left] 留덉��留� �몢 case 以� �븯�굹�뿉�꽌 wiggle 誘멸��異� (NaN) ��� amplitude->0 �닔�졃 媛��뒫�꽦
+[right] 留덉��留� �몢 case 以� �븯�굹�뿉�꽌 wiggle 誘멸��異� (NaN) ��� amplitude->0 �닔�졃 媛��뒫�꽦
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M03. Gate sweep\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 223.72474790003616 s

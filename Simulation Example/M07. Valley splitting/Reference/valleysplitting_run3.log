@@ -1,0 +1,577 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 29.487000900000567 s.
+Energy levels (eV)
+[0.02276732 0.02328047 0.03836114 0.03836117 0.03836129 0.03836189 0.04049035 0.04100657 0.05416832 0.05498006 0.06438575 0.06438597 0.06438681 0.06438691 0.06498018 0.06703174 0.08148689 0.08381527 0.10427076 0.10678540]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 30.73337299999548 s.
+Energy levels (eV)
+[0.03572223 0.03674801 0.06107489 0.06107496 0.06107511 0.06107535 0.06385367 0.06487825 0.08683094 0.08785820 0.10600623 0.10600661 0.10600725 0.10600755 0.10656077 0.10783819 0.12159351 0.12514873 0.13994366 0.14472072]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 41.74291629999061 s.
+Energy levels (eV)
+[0.04642175 0.04795978 0.07958303 0.07958307 0.07958312 0.07958320 0.08324555 0.08478120 0.11332417 0.11485792 0.13983064 0.14122184 0.14122209 0.14122225 0.14122249 0.14137176 0.16328222 0.16524471 0.18115471 0.18661406]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 40.059447999999975 s.
+Energy levels (eV)
+[0.05586021 0.05791015 0.09593175 0.09593180 0.09593184 0.09593201 0.10042703 0.10247312 0.13681253 0.13885543 0.16889220 0.17093263 0.17138641 0.17138659 0.17138682 0.17138857 0.19808805 0.20015723 0.22382868 0.22689073]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 35.79375830000208 s.
+Energy levels (eV)
+[0.06445032 0.06701191 0.11084657 0.11084673 0.11084679 0.11084687 0.11612072 0.11867668 0.15828630 0.16083758 0.19544843 0.19799553 0.19859361 0.19859391 0.19859395 0.19859408 0.22932790 0.23187364 0.26061728 0.26328349]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 27.157980399992084 s.
+Energy levels (eV)
+[0.07241388 0.07548684 0.12470471 0.12470474 0.12470479 0.12470485 0.13071502 0.13378033 0.17827088 0.18132981 0.22016789 0.22322106 0.22383457 0.22383490 0.22383502 0.22383539 0.25835638 0.26140451 0.29381885 0.29687711]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 19.569188200010103 s.
+Energy levels (eV)
+[0.07988745 0.08347154 0.13773671 0.13773672 0.13773674 0.13773675 0.14444914 0.14802330 0.19708983 0.20065569 0.24344977 0.24700818 0.24760044 0.24760073 0.24760078 0.24760092 0.28569266 0.28924412 0.32493385 0.32848112]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 24.408963399997447 s.
+Energy levels (eV)
+[0.08696267 0.09105765 0.15009731 0.15009736 0.15009738 0.15009750 0.15748363 0.16156616 0.21496030 0.21903240 0.26556159 0.26962426 0.27018416 0.27018436 0.27018460 0.27018467 0.31165423 0.31570823 0.35446243 0.35850851]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 23.341419700009283 s.
+Energy levels (eV)
+[0.09370478 0.09831045 0.16189632 0.16189638 0.16189640 0.16189643 0.16993279 0.17452325 0.23203694 0.23661464 0.28669365 0.29125982 0.29178312 0.29178344 0.29178348 0.29178352 0.33646491 0.34102041 0.38267606 0.38722135]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 21.71601180000289 s.
+Energy levels (eV)
+[0.10016234 0.10527847 0.17321576 0.17321579 0.17321582 0.17321585 0.18188173 0.18697967 0.24843492 0.25351757 0.30698789 0.31205672 0.31254304 0.31254336 0.31254365 0.31254368 0.36029095 0.36534685 0.40976697 0.41481115]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 40.6550494999974 s.
+Energy levels (eV)
+[0.02303869 0.02314173 0.03823566 0.03823578 0.03823581 0.03823591 0.04074287 0.04084719 0.05453279 0.05472108 0.06418424 0.06418455 0.06418475 0.06418563 0.06586984 0.06637900 0.08253567 0.08309708 0.10548214 0.10606836]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 41.719774800003506 s.
+Energy levels (eV)
+[0.03630240 0.03650869 0.06088459 0.06088464 0.06088476 0.06088496 0.06443508 0.06464176 0.08745222 0.08766035 0.10564578 0.10564593 0.10564650 0.10564671 0.10736380 0.10764057 0.12351434 0.12438025 0.14228810 0.14347295]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 38.92287729999225 s.
+Energy levels (eV)
+[0.04732134 0.04763105 0.07933577 0.07933581 0.07933585 0.07933617 0.08418177 0.08449224 0.11435493 0.11466604 0.14076799 0.14076849 0.14076882 0.14076911 0.14099864 0.14131282 0.16485208 0.16527132 0.18466518 0.18595170]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 46.189206799987005 s.
+Energy levels (eV)
+[0.05708573 0.05749900 0.09563348 0.09563349 0.09563357 0.09563367 0.10173455 0.10214905 0.13828220 0.13869772 0.17057724 0.17085069 0.17085076 0.17085119 0.17085150 0.17099376 0.20004966 0.20047454 0.22671604 0.22735886]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 52.85957960000087 s.
+Energy levels (eV)
+[0.06600644 0.06652340 0.11050158 0.11050161 0.11050166 0.11050176 0.11781195 0.11833070 0.16021649 0.16073673 0.19768693 0.19797761 0.19797776 0.19797784 0.19797833 0.19820849 0.23193045 0.23245379 0.26371670 0.26426668]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 162.43615539999155 s.
+Energy levels (eV)
+[0.07430425 0.07492502 0.12431616 0.12431618 0.12431627 0.12431634 0.13279997 0.13342319 0.18067930 0.18130454 0.22298654 0.22314127 0.22314159 0.22314184 0.22314218 0.22361355 0.26165332 0.26228207 0.29766272 0.29829599]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 45.49917730000743 s.
+Energy levels (eV)
+[0.08211503 0.08283975 0.13730719 0.13730724 0.13730728 0.13730740 0.14693627 0.14766415 0.19999162 0.20072214 0.24683379 0.24683387 0.24683397 0.24683408 0.24687139 0.24760423 0.28971675 0.29045172 0.32963172 0.33036885]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 54.28239590000885 s.
+Energy levels (eV)
+[0.08952996 0.09035875 0.14962878 0.14962881 0.14962892 0.14962899 0.16038024 0.16121298 0.21836874 0.21920478 0.26934693 0.26934720 0.26934735 0.26934742 0.26960626 0.27044523 0.31643340 0.31727506 0.36005891 0.36090317]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 162.65011210000375 s.
+Energy levels (eV)
+[0.09661397 0.09754690 0.16139069 0.16139071 0.16139074 0.16139081 0.17324537 0.17418315 0.23596394 0.23690574 0.29087889 0.29087918 0.29087932 0.29087954 0.29137962 0.29232501 0.34202423 0.34297292 0.38920558 0.39015769]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 235.01921009999933 s.
+Energy levels (eV)
+[0.10341528 0.10445250 0.17267430 0.17267435 0.17267445 0.17267451 0.18561610 0.18665910 0.25289124 0.25393903 0.31157405 0.31157408 0.31157414 0.31157448 0.31233162 0.31338373 0.36665331 0.36770940 0.41725941 0.41831930]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 157.36636879999423 s.
+Energy levels (eV)
+[0.02303507 0.02313997 0.03823559 0.03823569 0.03823582 0.03823607 0.04073951 0.04084534 0.05453916 0.05472074 0.06418121 0.06418139 0.06418173 0.06418222 0.06589263 0.06639336 0.08255862 0.08310582 0.10550231 0.10607058]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 150.67967399999907 s.
+Energy levels (eV)
+[0.03629515 0.03650520 0.06088498 0.06088507 0.06088512 0.06088535 0.06442764 0.06463819 0.08744487 0.08765661 0.10564330 0.10564381 0.10564423 0.10564453 0.10736690 0.10763583 0.12355410 0.12440184 0.14234014 0.14350291]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 203.54448699999193 s.
+Energy levels (eV)
+[0.04731042 0.04762583 0.07933645 0.07933651 0.07933661 0.07933668 0.08417051 0.08448691 0.11434332 0.11466053 0.14076787 0.14076805 0.14076874 0.14076917 0.14098722 0.14130692 0.16485635 0.16526351 0.18472517 0.18598084]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 158.42497580000781 s.
+Energy levels (eV)
+[0.05707109 0.05749207 0.09563441 0.09563447 0.09563451 0.09563463 0.10171942 0.10214198 0.13826657 0.13869043 0.17056103 0.17085136 0.17085169 0.17085246 0.17085253 0.17098611 0.20003447 0.20046607 0.22672954 0.22734855]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 49.797747799995705 s.
+Energy levels (eV)
+[0.06598808 0.06651478 0.11050275 0.11050279 0.11050283 0.11050296 0.11779293 0.11832192 0.16019673 0.16072762 0.19766641 0.19797834 0.19797852 0.19797864 0.19797885 0.19819898 0.23190918 0.23244371 0.26369985 0.26425478]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 144.95716070001072 s.
+Energy levels (eV)
+[0.07428217 0.07491473 0.12431756 0.12431761 0.12431770 0.12431774 0.13277702 0.13341273 0.18065540 0.18129369 0.22296160 0.22314265 0.22314301 0.22314314 0.22314329 0.22360219 0.26162735 0.26227009 0.29763638 0.29828314]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 51.6470158000011 s.
+Energy levels (eV)
+[0.08208919 0.08282779 0.13730885 0.13730888 0.13730893 0.13730899 0.14690934 0.14765200 0.19996352 0.20070954 0.24683531 0.24683538 0.24683551 0.24683586 0.24684202 0.24759104 0.28968614 0.29043779 0.32959967 0.33035407]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 109.81261300000187 s.
+Energy levels (eV)
+[0.08950035 0.09034514 0.14963071 0.14963073 0.14963077 0.14963079 0.16034931 0.16119917 0.21833639 0.21919047 0.26934878 0.26934887 0.26934911 0.26934920 0.26957238 0.27043022 0.31639784 0.31725916 0.36002147 0.36088623]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 26.22253100000671 s.
+Energy levels (eV)
+[0.09658057 0.09753167 0.16139281 0.16139282 0.16139288 0.16139296 0.17321042 0.17416771 0.23592730 0.23688975 0.29088107 0.29088130 0.29088149 0.29088172 0.29134117 0.29230824 0.34198381 0.34295514 0.38916305 0.39013846]
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M07. Valley splitting\Reference\meshes\Si_well.msh
+Done.
+================================================================================
+1D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1600                
+Line elements                 1600                
+Point elements                0                   
+Total number of nodes         1601                
+Region physical names         Domain, Barrier,              
+================================================================================
+--------------------------------------------------------------------------------
+Solving the MVEMT Schrödinger equation.
+--------------------------------------------------------------------------------
+MVEMT Schrödinger equation solved in 130.23541350000596 s.
+Energy levels (eV)
+[0.10337810 0.10443564 0.17267669 0.17267671 0.17267676 0.17267682 0.18557709 0.18664204 0.25285025 0.25392138 0.31157631 0.31157653 0.31157658 0.31157672 0.31228855 0.31336520 0.36660805 0.36768983 0.41721189 0.41829822]
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 2390.9242914999923 s

@@ -1,0 +1,47 @@
+﻿conda : C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:79: SyntaxWarning: invalid escape sequence '\l'
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python EDSR_noise.py 2>&1 | Te ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...e sequence '\l':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  axes[0].set_ylabel(f"$\left< \sigma_z (t) \\right>$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:80: SyntaxWarning: invalid escape sequence '\l'
+  axes[1].set_ylabel(f"$\left< \sigma_y (t) \\right>$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:81: SyntaxWarning: invalid escape sequence '\,'
+  axes[0].set_xlabel(f"$t \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:82: SyntaxWarning: invalid escape sequence '\,'
+  axes[1].set_xlabel(f"$t \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:102: SyntaxWarning: invalid escape sequence '\o'
+  axes.set_ylabel(f"$S_\\beta(\omega) \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:103: SyntaxWarning: invalid escape sequence '\o'
+  axes.set_xlabel("$\omega \, (s^{-1})$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:114: SyntaxWarning: invalid escape sequence '\,'
+  axes.set_xlabel("$t \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:156: SyntaxWarning: invalid escape sequence '\l'
+  axes[0].set_ylabel(f"$\left< \sigma_z (t) \\right>$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:157: SyntaxWarning: invalid escape sequence '\l'
+  axes[1].set_ylabel(f"$\left< \sigma_z (t) \\right>$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:158: SyntaxWarning: invalid escape sequence '\,'
+  axes[0].set_xlabel(f"$t \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:159: SyntaxWarning: invalid escape sequence '\,'
+  axes[1].set_xlabel(f"$t \, (s)$", fontsize=20)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:83: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:105: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:115: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qutip\core\coefficient.py:199: FutureWarning: The signature f(t, args) is deprecated and will be removed in QuTiP 5.5. Please update your function to the
+ pythonic signature f(t, **kwargs) to maintain compatibility.
+  op = FunctionCoefficient(base, args.copy(), style=function_style)
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\EDSR_noise.py:166: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 

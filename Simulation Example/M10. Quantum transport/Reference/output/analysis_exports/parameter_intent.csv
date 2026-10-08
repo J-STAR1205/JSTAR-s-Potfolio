@@ -1,0 +1,4 @@
+parameter,intent
+"source/drain quantum lead bnd (NEGF), Vds=0.05V",일반 ohmic 경계 대신 NEGF 전용 'quantum lead' 경계로 source/drain을 무한 저장소(reservoir)로 취급 — 실제 전류(투과)를 계산하려면 필수. Vds=50mV는 선형 응답(linear response) 영역의 전형적 바이어스.
+"barrier_gate: 0.7/0.7/1.7V, plunger_gate: 0.7/0.76/1.7V (3개 레짐)","Off-state(낮은 전압), sequential-tunneling(살짝 디튜닝), strongly-coupled(높은 전압) 3개 대표 동작점을 스캔 — M06의 CSD 전체 평면 대신 대표 레짐만 봐서 NEGF의 무거운 계산비용을 절약."
+Si 두께 3nm (fdsoi_negf.geo t_si),강한 양자 구속으로 단일 서브밴드에 가까운 전도 — NEGF 투과 스펙트럼 해석을 단순화.

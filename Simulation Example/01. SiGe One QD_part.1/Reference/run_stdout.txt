@@ -1,0 +1,97 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\meshes\multiscale.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      7668102             
+Triangular elements           7878                
+Tetrahedral elements          7660224             
+Total number of nodes         1292986             
+Boundary physical names       gate_plunger, gate_confinement, 
+Region physical names         oxide, cap_top, cap_qd, cap_bot, well_qd, well, buffer_qd, buffer_top, buffer_bot, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.900000000000     
+gate_plunger                                gate            -0.400000000000     
+--------------------------------------------------------------------------------
+Saved variable phi in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\output\multiscale_phi.hdf5
+Estimated file size: 8.222 MB
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\output\multiscale_CB.vtu
+Estimated file size: 258.576 MB
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1853820             
+Triangular elements           0                   
+Tetrahedral elements          1853820             
+Total number of nodes         321230              
+Boundary physical names                                     
+Region physical names         cap_qd, well_qd, buffer_qd,   
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 35.93028369999956 s.
+Energy levels (eV)
+[-0.01578197 -0.00597252 -0.00596980 0.00390293 0.00390609 0.00397044 0.01384655 0.01390047 0.01396894 0.01398211]
+--------------------------------------------------------------------------------
+Geometric properties of the quantum dot:
+--------------------------------------------------------------------------------
+position        :  [-3.48595840e-12  1.79692137e-12 -3.56819190e-08]
+std             :  [4.80519762e-09 4.80536577e-09 1.09124831e-09]
+size            :  [1.92207905e-08 1.92214631e-08 4.36499323e-09]
+--------------------------------------------------------------------------------
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\output\multiscale_wf.vtu
+Estimated file size: 116.527 MB
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+gate_confinement                            gate            -1.890000000000     
+gate_plunger                                gate            -0.400000000000     
+--------------------------------------------------------------------------------
+Saved variable der in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\output\multiscale_der.hdf5
+Estimated file size: 31.505 MB
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 385.59471029999986 s

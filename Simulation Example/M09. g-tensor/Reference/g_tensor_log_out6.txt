@@ -1,0 +1,71 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M09. g-tensor\Reference\meshes\refined_dqdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1022018             
+Triangular elements           31435               
+Tetrahedral elements          990583              
+Total number of nodes         173626              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, plunger_gate_2_bnd, barrier_gate_3_bnd, source_bnd, drain_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, drain, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Tiling crystallographic unit cell over volume of atomic structure...
+Atomic structure built in 5.321300506591797 s.
+Total number of atoms in atomic structure: 76917.
+Interpolating finite-element quantity on atomic positions...
+Interpolation done in 1.0795903205871582 s.
+Computing 10 eigenpairs of tight-binding Hamiltonian...
+10 eigenpairs of Hamiltonian were computed in: 1326.900030374527 s.
+Atomistic tight-binding eigenenergies (eV):
+[0.05773405 0.05773405 0.05787270 0.05787270 0.06352491 0.06352491 0.06369548 0.06369548 0.07414547 0.07414547]
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M09. g-tensor\Reference\output\FD-SOI_psi.vtu
+Estimated file size: 9.702 MB
+g-tensor
+g = [[ 9.23682074e-10-7.47763119e-16j  1.65732705e-08-1.53649956e-16j
+  -8.63415086e-08-8.19466432e-17j]
+ [ 1.99844964e+00+0.00000000e+00j  4.27932998e-03+0.00000000e+00j
+   1.87951299e-09+0.00000000e+00j]
+ [-4.59343181e-03+0.00000000e+00j  1.99783060e+00+0.00000000e+00j
+   4.40969486e-10+0.00000000e+00j]
+ [ 1.57876566e-03-1.00969971e-16j -4.50866056e-04-8.34099761e-17j
+   2.00416790e+00+2.69253256e-16j]]
+Average spin-splitting: 27966.638020855862 MHz / T
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 1716.1672920000274 s

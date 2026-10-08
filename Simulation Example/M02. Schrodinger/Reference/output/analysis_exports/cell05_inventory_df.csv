@@ -1,0 +1,7 @@
+file,exists,size_MB
+creating_dot_V.vtu,True,9.68
+creating_dot_psi0.vtu,True,10.96
+creating_dot_psi1.vtu,True,10.99
+creating_dot_data.vtm,True,0.0
+creating_dot_run.log,True,0.01
+adaptive_schrodinger_run.log,True,0.01

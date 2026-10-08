@@ -1,0 +1,530 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      34076               
+Triangular elements           1108                
+Tetrahedral elements          32968               
+Total number of nodes         6550                
+Boundary physical names       relaxed_buffer_bottom, relaxed_buffer_side, quantum_well_bottom, quantum_well_side, upper_barrier_bottom, upper_barrier_side, si_cap_bottom, si_cap_side, gate_oxide_sio2_bottom, gate_oxide_sio2_side, gate_oxide_hfo2_side, gate_oxide_hfo2_top, screening_ild_side, screening_ild_top, relaxed_buffer.dot_left_bottom, relaxed_buffer.dot_right_side, relaxed_buffer.dot_right_bottom, relaxed_buffer.dot_left_side, quantum_well.dot_right_side, quantum_well.dot_left_side, upper_barrier.dot_right_top, upper_barrier.dot_right_side, upper_barrier.dot_left_side, upper_barrier.dot_left_top, dot_right_side, SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.500000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.500000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+=======================================
+Starting refinements: (eta0 = 0.3000)
+---------------------------------------
+Completed refinements: 0, Current mesh size: 6550 nodes, 32968 3D elements, current rel. error: 0.569340
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      691362              
+Triangular elements           79397               
+Tetrahedral elements          611965              
+Total number of nodes         110337              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+Completed refinements: 1, Current mesh size: 110337 nodes, 611965 3D elements, current rel. error: 0.442828
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1953242             
+Triangular elements           121471              
+Tetrahedral elements          1831771             
+Total number of nodes         317827              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+Completed refinements: 2, Current mesh size: 317827 nodes, 1831771 3D elements, current rel. error: 0.302040
+Generating mesh with algorithm:  hxt
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+Completed refinements: 3, Current mesh size: 481379 nodes, 2751735 3D elements, current rel. error: 0.265559
+---------------------------------------
+Refinements complete:
+Completed refinements: 3, Current mesh size: 481379 nodes, 2751735 3D elements
+=======================================
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1127779             
+Triangular elements           82716               
+Tetrahedral elements          1045063             
+Total number of nodes         181959              
+Boundary physical names       dots,                         
+Region physical names         quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+
+============================================================
+Detuning point 1/11
+detuning = -0.010000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.495000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.505000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 104.37829689995851 s.
+Energy levels (eV)
+[0.29228027 0.29266955 0.29284126 0.29301151 0.29469339 0.29485275 0.29514962 0.29527159]
+
+============================================================
+Detuning point 2/11
+detuning = -0.008000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.496000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.504000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 102.31888010003604 s.
+Energy levels (eV)
+[0.29233042 0.29272005 0.29279157 0.29296169 0.29472537 0.29487426 0.29513009 0.29524415]
+
+============================================================
+Detuning point 3/11
+detuning = -0.006000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.497000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.503000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 124.8490072999848 s.
+Energy levels (eV)
+[0.29238049 0.29274102 0.29277124 0.29291178 0.29475419 0.29488882 0.29511628 0.29521945]
+
+============================================================
+Detuning point 4/11
+detuning = -0.004000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.498000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.502000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 124.80821580003249 s.
+Energy levels (eV)
+[0.29243049 0.29269141 0.29282130 0.29286179 0.29477795 0.29489551 0.29510855 0.29519999]
+
+============================================================
+Detuning point 5/11
+detuning = -0.002000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.499000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.501000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 148.4334213999682 s.
+Energy levels (eV)
+[0.29248040 0.29264139 0.29281169 0.29287162 0.29479337 0.29489609 0.29510428 0.29518989]
+
+============================================================
+Detuning point 6/11
+detuning = 0.000000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.500000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.500000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 140.0504612000077 s.
+Energy levels (eV)
+[0.29253021 0.29259128 0.29276153 0.29292185 0.29479642 0.29489437 0.29510023 0.29519266]
+
+============================================================
+Detuning point 7/11
+detuning = 0.002000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.501000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.499000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 153.7376973000355 s.
+Energy levels (eV)
+[0.29254099 0.29258000 0.29271131 0.29297199 0.29478597 0.29489130 0.29509799 0.29520687]
+
+============================================================
+Detuning point 8/11
+detuning = 0.004000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.502000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.498000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 106.57430860004388 s.
+Energy levels (eV)
+[0.29249071 0.29262936 0.29266126 0.29302205 0.29476532 0.29488344 0.29510192 0.29522829]
+
+============================================================
+Detuning point 9/11
+detuning = 0.006000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.503000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.497000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 103.83747500000754 s.
+Energy levels (eV)
+[0.29244032 0.29261026 0.29267953 0.29307201 0.29473836 0.29486825 0.29511384 0.29525373]
+
+============================================================
+Detuning point 10/11
+detuning = 0.008000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.504000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.496000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 106.11340990004828 s.
+Energy levels (eV)
+[0.29238985 0.29255986 0.29272894 0.29312187 0.29470758 0.29484620 0.29513261 0.29528136]
+
+============================================================
+Detuning point 11/11
+detuning = 0.010000 V
+============================================================
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M13. Tunnel Falls DAPS\Reference\meshes\refined_tunnel_falls_double_dot.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2918987             
+Triangular elements           167252              
+Tetrahedral elements          2751735             
+Total number of nodes         481379              
+Boundary physical names       SG, B4, P5, B5, P6, B6, CS, dots, 
+Region physical names         relaxed_buffer, quantum_well, upper_barrier, si_cap, gate_oxide_sio2, gate_oxide_hfo2, screening_ild, quantum_well.dot_left, relaxed_buffer.dot_right, upper_barrier.dot_right, relaxed_buffer.dot_left, upper_barrier.dot_left, quantum_well.dot_right, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+B4                                          gate            1.000000000000      
+P5                                          gate            2.505000000000      
+B5                                          gate            1.200000000000      
+P6                                          gate            2.495000000000      
+B6                                          gate            1.000000000000      
+SG                                          gate            -0.500000000000     
+CS                                          gate            -0.500000000000     
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 105.96669490000932 s.
+Energy levels (eV)
+[0.29233929 0.29250930 0.29277835 0.29317163 0.29467434 0.29481905 0.29515607 0.29531014]
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 2665.5032277000137 s

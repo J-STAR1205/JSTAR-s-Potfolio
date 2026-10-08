@@ -1,0 +1,13 @@
+metric,value,unit
+nanowire_E0_eV,0.5479801787530892,eV
+nanowire_E1_eV,0.6132002201533862,eV
+tunnel_coupling_input,265.1278645089336,µeV
+coulomb_U00,17.36664436641466,meV
+J_perturbative,4.0475742940043204,µeV
+J_perturbative_over_h,978.6991099441904,MHz
+J_exact,2.421863067023078,µeV
+J_exact_over_h,585.6038841864587,MHz
+exact_over_perturbative,0.5983492559013898,ratio
+potential_delta_rms,0.014048433008610936,V
+potential_delta_max_abs,0.060004007144454974,V
+two_electron_spectrum_size,120.0,states

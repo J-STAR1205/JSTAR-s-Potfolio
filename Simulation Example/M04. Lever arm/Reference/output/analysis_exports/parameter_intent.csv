@@ -1,0 +1,4 @@
+parameter,intent
+"plunger_gate_1 sweep: 0.56-0.62 V, 5점 (기준 0.59V)",M03의 기준 바이어스(0.59V) 주변 ±30mV의 좁은 창 — 선형 영역(국소 기울기)만 보려는 의도. 너무 넓히면 비선형(4절) 영향이 커짐.
+bias_increment=1e-3 V (유한차분),"충분히 작아 선형 근사가 유효하면서도, Poisson/Schrödinger 수치 노이즈보다는 큰 중간값 — 4절에서 이 선택이 un-refined 메시와 만나 문제가 되는 과정을 분석."
+mesh: un-refined dqdfdsoi.msh (M03/M16의 refined 메시 대신),11번의 독립 풀이를 감당할 수 있는 속도(0.1s/Poisson iter) 확보. 레버암은 기울기라 메시 민감도가 낮을 것으로 예상했으나 — 4절에서 이 가정 자체를 검증합니다.

@@ -1,0 +1,178 @@
+﻿Info    : Reading 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi.xao'...
+Info    : Done reading 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi.xao'
+Info    : Reading 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi.xao'...
+Info    : Done reading 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi.xao'
+Info    : Writing 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi_mirrored.xao'...
+Info    : Done writing 'C:\temp\m15_sym_dqdfdsoi\qdfdsoi_mirrored.xao'
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\temp\m15_sym_dqdfdsoi\qdfdsoi.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      83368               
+Triangular elements           748                 
+Tetrahedral elements          82620               
+Total number of nodes         15743               
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, source_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Processing and mirroring the half mesh.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      166736              
+Triangular elements           1496                
+Tetrahedral elements          165240              
+Total number of nodes         30576               
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, source_bnd, back_gate_bnd, barrier_gate_1_bnd_mirrored, plunger_gate_1_bnd_mirrored, barrier_gate_2_bnd_mirrored, source_bnd_mirrored, back_gate_bnd_mirrored, 
+Region physical names         gate_oxide_dot, gate_oxide, source, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, gate_oxide_dot_mirrored, gate_oxide_mirrored, source_mirrored, channel_mirrored, oxide_mirrored, channel_dot_mirrored, oxide_dot_mirrored, buried_oxide_mirrored, buried_oxide_dot_mirrored, 
+================================================================================
+Saving the geometry file
+================================================================================
+Mirroring the geometry
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+barrier_gate_1_bnd                          gate            0.500000000000      
+plunger_gate_1_bnd                          gate            0.590000000000      
+barrier_gate_2_bnd                          gate            0.510000000000      
+source_bnd                                  ohmic           -                   
+back_gate_bnd                               frozen          -0.500000000000     
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.378e+00      0.943991     (-1.475e-08, -1.718e-08, 0.000e+00) 
+2               2.031e-02      0.391197     (2.000e-08, -7.500e-09, -8.667e-09) 
+3               7.719e-03      0.307886     (-4.000e-09, -7.500e-09, -4.667e-09)
+4               8.715e-04      0.272363     (-1.600e-08, -1.000e-08, -4.333e-09)
+5               9.782e-04      0.262774     (2.220e-25, -1.000e-08, -3.667e-09) 
+6               8.898e-04      0.278409     (-8.000e-09, -1.000e-08, -3.667e-09)
+7               8.209e-04      0.270478     (-8.000e-09, -1.000e-08, -3.667e-09)
+8               8.354e-04      0.261983     (-8.000e-09, -1.000e-08, -3.667e-09)
+9               8.564e-04      0.276322     (-8.000e-09, -1.000e-08, -3.667e-09)
+10              8.539e-04      0.270099     (-8.000e-09, -1.000e-08, -3.667e-09)
+11              8.503e-04      0.260660     (-8.000e-09, -1.000e-08, -3.667e-09)
+12              8.507e-04      0.277042     (-8.000e-09, -1.000e-08, -3.667e-09)
+13              8.514e-04      0.290205     (-8.000e-09, -1.000e-08, -3.667e-09)
+14              8.513e-04      0.274781     (-8.000e-09, -1.000e-08, -3.667e-09)
+
+The error has saturated in the Poisson solver.
+Mesh will be refined. 
+
+Relative error: 0.22
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      967906              
+Triangular elements           27687               
+Tetrahedral elements          940219              
+Total number of nodes         166647              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, source_bnd, back_gate_bnd, 
+Region physical names         gate_oxide_dot, gate_oxide, source, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+15              1.416e-01      4.889524     (-2.246e-08, -3.139e-08, -1.000e-08)
+16              4.655e-02      3.921155     (8.212e-09, -1.250e-08, -7.236e-09) 
+17              1.121e-02      5.597276     (1.239e-08, -1.024e-08, -8.910e-09) 
+18              2.468e-03      4.506316     (1.616e-08, -9.967e-09, -6.668e-09) 
+19              1.897e-04      2.896547     (1.653e-08, -9.583e-09, -4.988e-09) 
+20              4.447e-06      2.552302     (-4.841e-09, -1.147e-08, -4.360e-09)
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 20 Poisson iterations.
+> 80.94578170776367 s.
+conda : C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\sym_dqdfdsoi.py:125: UserWarning: FigureCanvasAgg is non-interactive, and thu
+s cannot be shown
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python sym_dqdfdsoi.py 2>&1 |  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+2026-10-01 22:25:56.123 ( 301.553s) [33EF0CC11F4C4B13]          vtkmSlice.cxx:328   WARN| vtkmSlice (0000024018D64BB0): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M15. Mesh accuracy\Reference\sym_dqdfdsoi.py:184: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot
+ be shown
+  plt.show()
+Average computation time / Poisson iteration is 4.047289478778839 s.
+--------------------------------------------------------------------------------
+Processing and mirroring the half mesh.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1935812             
+Triangular elements           55374               
+Tetrahedral elements          1880438             
+Total number of nodes         329825              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, source_bnd, back_gate_bnd, barrier_gate_1_bnd_mirrored, plunger_gate_1_bnd_mirrored, barrier_gate_2_bnd_mirrored, source_bnd_mirrored, back_gate_bnd_mirrored, 
+Region physical names         gate_oxide_dot, gate_oxide, source, channel, oxide, channel_dot, oxide_dot, buried_oxide, buried_oxide_dot, gate_oxide_dot_mirrored, gate_oxide_mirrored, source_mirrored, channel_mirrored, oxide_mirrored, channel_dot_mirrored, oxide_dot_mirrored, buried_oxide_mirrored, buried_oxide_dot_mirrored, 
+================================================================================
+Updating the device
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1599702             
+Triangular elements           51400               
+Tetrahedral elements          1548302             
+Total number of nodes         272209              
+Boundary physical names       barrier_gate_1_bnd, plunger_gate_1_bnd, barrier_gate_2_bnd, back_gate_bnd, barrier_gate_1_bnd_mirrored, plunger_gate_1_bnd_mirrored, barrier_gate_2_bnd_mirrored, back_gate_bnd_mirrored, 
+Region physical names         gate_oxide_dot, channel_dot, oxide_dot, buried_oxide_dot, gate_oxide_dot_mirrored, channel_dot_mirrored, oxide_dot_mirrored, buried_oxide_dot_mirrored, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for electrons.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 81.03339189995313 s.
+Tunnel coupling: 1.1756489290443754e-06 eV
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 305.1913181000273 s

@@ -1,0 +1,145 @@
+﻿python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:2256: UserWarning: The attribute conf_carriers of the device object was not specified; conf_carriers will be set to 'e'.
+At line:5 char:1
++ python -X utf8 maxwell_xmon.py *> maxwell_xmon_run.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\... be set to 'e'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().__init__(
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:2107: UserWarning: In version 2.1.3, the definition of the output of this method has changed by a factor of 1/2. This warning will
+ be removed in version 2.3.
+  return super().energy_e(e, region=region)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:2188: UserWarning: In version 2.1.3, the definition of the output of this method has changed by a factor of 1/2. This warning will
+ be removed in version 2.3.
+  return super().energy_b(b, region=region, include_inductors=include_inductors)
+C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:2219: UserWarning: In version 2.1.3, the definition of the output of this method has changed by a factor of 1/2. This warning will
+ be removed in version 2.3.
+  return super().energy_b_elems(b)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\meshes\xmon.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      3051                
+Triangular elements           656                 
+Tetrahedral elements          2395                
+Total number of nodes         605                 
+Boundary physical names       substrate_top, xmon_cross, xy_ctrl, readout, qbus, jj, gnd, 
+Region physical names         substrate, air,               
+================================================================================
+Warning: The `new_inductor` method is in beta. Its API may change in future versions.
+Field results will be saved in:
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\maxwell_xmon\xmon-fields.vtu
+
+
+Refined mesh will be saved in:
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\maxwell_xmon\xmon-refined-mesh.msh4
+
+Convergence data will be saved in:
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\maxwell_xmon\xmon-values.txt
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\maxwell_xmon\xmon-delta.txt
+	C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M11. Maxwell CPW\Reference\output\maxwell_xmon\xmon-delta_rel.txt
+
+Deleted 5 outdated files containing results from a previous simulation.
+
+Minimum eigenmode frequency's lower bound estimated to be 6.885334e+08 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 1.552571e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 1.767781e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.040782e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.210948e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.296813e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.364291e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.424308e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.488874e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.531868e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.580715e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.620456e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.657903e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.693570e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.725199e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.751682e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.779590e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.800899e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.820399e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.837222e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.850392e+09 Hz.
+Generating mesh with algorithm:  hxt
+Following mesh refinement, the minimum eigenmode frequency's lower bound was adjusted to 2.862244e+09 Hz.
+Solution completed in 599.86 s
+Frequency of the LC resonator (analytical): 5.929 GHz
+Frequency of the fundamental mode (computed): 5.724 GHz
+Frequency of the qubit (analytical): 5.738 GHz
+
+Quantity                                      |           Value
+---------------------------------------------------------------
+Frequency of the LC resonator (analytical)    |       5.929 GHz
+Frequency of the qubit (analytical)           |       5.738 GHz
+Bare Maxwell frequency (computed)             |       5.724 GHz
+Dressed qubit frequency (EPR)                 |       5.552 GHz
+Junction participation                        |        0.985514
+Reduced flux ZPF                              |        0.350204
+Anharmonicity                                 |    -172.974 MHz
+Bulk substrate quality factor                 |       2.172e+06
+Surface MS quality factor                     |       1.086e+07
+Surface MA quality factor                     |       2.601e+08
+Surface SA quality factor                     |       1.993e+07
+Total quality factor                          |       1.649e+06
+Relaxation time T1                            |       47.271 μs
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 619.9050429000054 s

@@ -1,0 +1,262 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[15:38:42] INFO     Using mask                                  builder.py:1365
+                    'footprint-screening_gate-center_screen_gat                
+                    e-finger_gates-dots' (implicitly selecting                 
+                    shapes [Polygon 0 'footprint', Polygon 1                   
+                    'SG', Polygon 2 'CS', Polygon 3 'B4',                      
+                    Polygon 4 'P5', Polygon 5 'B5', Polygon 6                  
+                    'P6', Polygon 7 'B6', Polygon 8 'dot_left',                
+                    Polygon 9 'dot_right'])                                    
+           INFO     Using mask 'footprint' (implicitly          builder.py:1365
+                    selecting shapes [Polygon 0 'footprint'])                  
+[15:38:43] INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 50.0 at z=0                            
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer_bottom'                          
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer_side'                            
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer_top'                             
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'relaxed_buffer'                                 
+           INFO     Setting z-coordinate to 50.0                builder.py:1291
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 4.6 at z=50.0                          
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'quantum_well_bottom'                            
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'quantum_well_side'                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'quantum_well_top'                               
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'quantum_well'                                   
+           INFO     Identifying potential intersections...       builder.py:615
+[15:38:45] INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 54.6                builder.py:1291
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 50.0 at z=54.6                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier_bottom'                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier_side'                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier_top'                              
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'upper_barrier'                                  
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 104.6               builder.py:1291
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 1.0 at z=104.6                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'si_cap_bottom'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'si_cap_side'                                    
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'si_cap_top'                                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'si_cap'                                         
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 105.6               builder.py:1291
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 5.0 at z=105.6                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_sio2_bottom'                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_sio2_side'                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_sio2_top'                            
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'gate_oxide_sio2'                                
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 110.6               builder.py:1291
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 5.0 at z=110.6                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_hfo2_bottom'                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_hfo2_side'                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_hfo2_top'                            
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'gate_oxide_hfo2'                                
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Setting z-coordinate to 115.6               builder.py:1291
+           INFO     Using mask 'screening_gate' (implicitly     builder.py:1365
+                    selecting shapes [Polygon 0 'SG'])                         
+           INFO     Creating a surface from shape 0 with name    builder.py:256
+                    'SG' from mask 'screening_gate' at z=115.6                 
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'SG'                                             
+           INFO     Identifying potential intersections...       builder.py:256
+           INFO     Fragmenting...                               builder.py:256
+           INFO     Using mask 'footprint' (implicitly          builder.py:1365
+                    selecting shapes [Polygon 0 'footprint'])                  
+           INFO     Extruding shape 0 from mask 'footprint' with builder.py:615
+                    name 'footprint' by 5.0 at z=115.6                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'screening_ild_bottom'                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'screening_ild_side'                             
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'screening_ild_top'                              
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'screening_ild'                                  
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_hfo2_bottom'                         
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'gate_oxide_hfo2_top'                            
+           INFO     Setting z-coordinate to 120.6               builder.py:1291
+           INFO     Using mask 'finger_gates' (implicitly       builder.py:1365
+                    selecting shapes [Polygon 0 'B4', Polygon 1                
+                    'P5', Polygon 2 'B5', Polygon 3 'P6',                      
+                    Polygon 4 'B6'])                                           
+           INFO     Creating a surface from shape 0 with name    builder.py:256
+                    'B4' from mask 'finger_gates' at z=120.6                   
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B4'                                             
+           INFO     Creating a surface from shape 1 with name    builder.py:256
+                    'P5' from mask 'finger_gates' at z=120.6                   
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P5'                                             
+           INFO     Creating a surface from shape 2 with name    builder.py:256
+                    'B5' from mask 'finger_gates' at z=120.6                   
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B5'                                             
+           INFO     Creating a surface from shape 3 with name    builder.py:256
+                    'P6' from mask 'finger_gates' at z=120.6                   
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'P6'                                             
+           INFO     Creating a surface from shape 4 with name    builder.py:256
+                    'B6' from mask 'finger_gates' at z=120.6                   
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'B6'                                             
+           INFO     Identifying potential intersections...       builder.py:256
+           INFO     Fragmenting...                               builder.py:256
+           INFO     Using mask 'center_screen_gate' (implicitly builder.py:1365
+                    selecting shapes [Polygon 0 'CS'])                         
+           INFO     Creating a surface from shape 0 with name    builder.py:256
+                    'CS' from mask 'center_screen_gate' at                     
+                    z=120.6                                                    
+           INFO     Creating new physical group of dimension 2   builder.py:256
+                    with name 'CS'                                             
+           INFO     Identifying potential intersections...       builder.py:256
+           INFO     Fragmenting...                               builder.py:256
+           INFO     Setting z-coordinate to 44.0                builder.py:1291
+           INFO     Using mask 'dots' (implicitly selecting     builder.py:1365
+                    shapes [Polygon 0 'dot_left', Polygon 1                    
+                    'dot_right'])                                              
+           INFO     Extruding shape 0 from mask 'dots' with name builder.py:615
+                    'dot_left' by 16.6 at z=44.0                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_left_bottom'                                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_left_side'                                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_left_top'                                   
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'dot_left'                                       
+           INFO     Extruding shape 1 from mask 'dots' with name builder.py:615
+                    'dot_right' by 16.6 at z=44.0                              
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_right_bottom'                               
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_right_side'                                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dot_right_top'                                  
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'dot_right'                                      
+           INFO     Identifying potential intersections...       builder.py:615
+           INFO     Fragmenting...                               builder.py:615
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer.dot_left_bottom'                 
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'dots'                                           
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'quantum_well.dot_right_side'                    
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'quantum_well.dot_left'                          
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier.dot_right_top'                    
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'relaxed_buffer.dot_right'                       
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer.dot_right_side'                  
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier.dot_right_side'                   
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'upper_barrier.dot_right'                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier.dot_left_side'                    
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'relaxed_buffer.dot_left'                        
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'quantum_well.dot_left_side'                     
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer.dot_right_bottom'                
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'relaxed_buffer.dot_left_side'                   
+           INFO     Creating new physical group of dimension 2   builder.py:615
+                    with name 'upper_barrier.dot_left_top'                     
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'upper_barrier.dot_left'                         
+           INFO     Creating new physical group of dimension 3   builder.py:615
+                    with name 'quantum_well.dot_right'                         
+           INFO     Setting z-coordinate to 60.6                builder.py:1291
+           INFO     Preparing to mesh                            builder.py:952
+           INFO     Detecting appropriate random factor          builder.py:952
+[15:38:46] INFO     Increased random factor from 1e-09 to        builder.py:952
+                    1.8651746872322816e-08                                     
+           INFO     Random factor is now appropriate             builder.py:952
+           INFO     Meshing                                      builder.py:952
+[15:38:49] INFO     Checking mesh conformity                     builder.py:952
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\AppData\Local\Temp\tmp335                
+                    amm9x\mesh.msh                                             
+           INFO     Checking connectivity                        builder.py:952
+nodes:   0%|          | 0/6550 [00:00<?, ?it/s]nodes:   0%|          | 0/6550 [00:00<?, ?it/s]nodes: 100%|██████████| 6550/6550 [00:00<00:00, 124054.85it/s]nodes: 100%|██████████| 6550/6550 [00:00<00:00, 122687.57it/s]nodes: 100%|██████████| 6550/6550 [00:00<00:00, 122031.97it/s]
+[15:38:50] INFO     Writing meshes\tunnel_falls_double_dot.msh  builder.py:1584
+           INFO     Writing                                     builder.py:1584
+                    ..\..\..\..\..\..\..\..\Temp\m13_tunnel_fal                
+                    ls\tunnel_falls_double_dot.xao                             
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 7.840310600004159 s

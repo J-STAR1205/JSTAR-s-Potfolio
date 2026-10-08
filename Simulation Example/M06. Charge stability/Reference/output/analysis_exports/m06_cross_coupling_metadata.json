@@ -1,0 +1,15 @@
+{
+  "classification": "B. Parameter sensitivity study",
+  "alpha_dominant_fixed": 0.7647308041661999,
+  "alpha_cross_values_tested": [
+    0.006,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "baseline_alpha_cross": "0.006-0.007 (see lever_arm_matrix.npy)",
+  "analytic_formula": "slope dV2/dV1 = -alpha_cross/alpha_dominant (constant-mu line)",
+  "warning": "alpha_cross values are NOT derived from geometry; do not interpret as actual device predictions."
+}

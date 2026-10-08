@@ -1,0 +1,4 @@
+state,energy_eV,energy_meV,gap_from_ground_meV
+ground (E0),-0.00019066,-0.19066,0.0
+1st excited (E1),0.00018525,0.18525,0.37591
+2nd excited (E2),0.00073543,0.73543,0.9260900000000001

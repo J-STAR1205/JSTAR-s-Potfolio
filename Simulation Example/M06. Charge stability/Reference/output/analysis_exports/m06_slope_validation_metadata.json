@@ -1,0 +1,6 @@
+{
+  "classification": "B. Parameter sensitivity study",
+  "method": "Method A: continuity-constrained ridge tracking (search_radius=4 px), shallow-family only (dominant=V2,cross=V1 states)",
+  "analytic_formula": "slope dV2/dV1 = -alpha_cross/alpha_dominant, derived from constant-mu line alpha_1*V1+alpha_2*V2=const",
+  "acceptance_criterion": "relative_error<5% (project-level, NOT official QTCAD spec)"
+}

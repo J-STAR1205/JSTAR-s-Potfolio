@@ -1,0 +1,356 @@
+﻿conda : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\device.py:1579: UserWarning: 'phi' set as a Field will not persist after mesh refinement. Please consider using a function or consta
+nt instead.
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python 4-CSD.py 2>&1 | Tee-Obj ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...nstant instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().set_potential(phi)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\meshes\refined_gedqd.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2337669             
+Triangular elements           167571              
+Tetrahedral elements          2170098             
+Total number of nodes         371211              
+Boundary physical names       substrate_bottom, substrate_side, SiGe_barrier_bottom, SiGe_barrier_side, Ge_well_bottom, Ge_well_side, SiGe_cap_bottom, SiGe_cap_side, oxide_bottom, oxide_side, oxide_top, Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, BC, BR, BL, P2, P1, 
+Region physical names         substrate, SiGe_barrier, Ge_well, SiGe_cap, oxide, Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      331736              
+Triangular elements           38857               
+Tetrahedral elements          292879              
+Total number of nodes         52613               
+Boundary physical names       Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, 
+Region physical names         Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for holes.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 422.2000210999977 s.
+Energy levels (eV)
+[-0.04007120 -0.04007079 -0.03959445 -0.03959428 -0.03385122 -0.03385083 -0.03337279 -0.03337249 -0.02994801 -0.02994781 -0.02945721 -0.02945692 -0.02845336 -0.02845316 -0.02799873 -0.02799795 -0.02488956 -0.02488531 -0.02439601 -0.02437528]
+Initializing Coulomb matrix calculation.
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+Computing contributions to block-row 0 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 1 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 2 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 3 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 4 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 5 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 6 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 7 (part 1/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 0 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 1 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 2 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 3 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 4 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 5 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 6 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing contributions to block-row 7 (part 2/2)
+... Step 1 / 8 completed
+... Step 2 / 8 completed
+... Step 3 / 8 completed
+... Step 4 / 8 completed
+... Step 5 / 8 completed
+... Step 6 / 8 completed
+... Step 7 / 8 completed
+... Step 8 / 8 completed
+Done.
+Computing Coulomb integrals...
+Done.
+Coulomb integrals computed in 111.54372819996206 s.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Constructing and solving many-body Hamiltonian.
+... Step 1 / 9 completed
+... Step 2 / 9 completed
+... Step 3 / 9 completed
+... Step 4 / 9 completed
+... Step 5 / 9 completed
+... Step 6 / 9 completed
+... Step 7 / 9 completed
+... Step 8 / 9 completed
+... Step 9 / 9 completed
+Done.
+Many-body problem solved in 11.330857000022661 s.
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\4-CSD.py:150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 930.6096430000034 s

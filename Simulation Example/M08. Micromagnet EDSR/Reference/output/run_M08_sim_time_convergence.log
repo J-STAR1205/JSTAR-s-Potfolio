@@ -1,0 +1,485 @@
+﻿conda.bat : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qutip\core\coefficient.py:199: FutureWarning: The signature f(t, args) is deprecated and will be removed in QuT
+iP 5.5. Please update your function to the pythonic signature f(t, **kwargs) to maintain compatibility.
+At line:4 char:1
++ & conda run -n qtcad python M08_sim_time_convergence.py > "$m08\outpu ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\... compatibility.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  op = FunctionCoefficient(base, args.copy(), style=function_style)
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+[consistency check] PASSED (rel.err=0.00e+00)
+
+T_Rabi = 585.26 ns, omega_Rabi = 1.073566e+07 rad/s (f_Rabi = 1.7086 MHz)
+
+================================================================================
+COMPUTATIONAL COST ESTIMATE
+================================================================================
+  n_cycles=  20: T_sim=  11.71 us,   1000 time points x 100 noise realizations
+  n_cycles=  50: T_sim=  29.26 us,   2500 time points x 100 noise realizations
+  n_cycles= 100: T_sim=  58.53 us,   5000 time points x 100 noise realizations
+  n_cycles= 200: T_sim= 117.05 us,  10000 time points x 100 noise realizations
+================================================================================
+
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[n_cycles=  20] T_sim=   11.71 us | t2star_fit=   21.51 us | envelope@end=0.7436 | decay unresolved within simulation window | (6.9s)
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[n_cycles=  50] T_sim=   29.26 us | t2star_fit=   29.58 us | envelope@end=0.3757 | decay resolved | (20.5s)
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[n_cycles= 100] T_sim=   58.53 us | t2star_fit=   39.95 us | envelope@end=0.1169 | decay resolved | (172.3s)
+Computing qubit dynamics under multiple realizations of random noise
+... 1 % completed
+... 2 % completed
+... 3 % completed
+... 4 % completed
+... 5 % completed
+... 6 % completed
+... 7 % completed
+... 8 % completed
+... 9 % completed
+... 10 % completed
+... 11 % completed
+... 12 % completed
+... 13 % completed
+... 14 % completed
+... 15 % completed
+... 16 % completed
+... 17 % completed
+... 18 % completed
+... 19 % completed
+... 20 % completed
+... 21 % completed
+... 22 % completed
+... 23 % completed
+... 24 % completed
+... 25 % completed
+... 26 % completed
+... 27 % completed
+... 28 % completed
+... 29 % completed
+... 30 % completed
+... 31 % completed
+... 32 % completed
+... 33 % completed
+... 34 % completed
+... 35 % completed
+... 36 % completed
+... 37 % completed
+... 38 % completed
+... 39 % completed
+... 40 % completed
+... 41 % completed
+... 42 % completed
+... 43 % completed
+... 44 % completed
+... 45 % completed
+... 46 % completed
+... 47 % completed
+... 48 % completed
+... 49 % completed
+... 50 % completed
+... 51 % completed
+... 52 % completed
+... 53 % completed
+... 54 % completed
+... 55 % completed
+... 56 % completed
+... 57 % completed
+... 58 % completed
+... 59 % completed
+... 60 % completed
+... 61 % completed
+... 62 % completed
+... 63 % completed
+... 64 % completed
+... 65 % completed
+... 66 % completed
+... 67 % completed
+... 68 % completed
+... 69 % completed
+... 70 % completed
+... 71 % completed
+... 72 % completed
+... 73 % completed
+... 74 % completed
+... 75 % completed
+... 76 % completed
+... 77 % completed
+... 78 % completed
+... 79 % completed
+... 80 % completed
+... 81 % completed
+... 82 % completed
+... 83 % completed
+... 84 % completed
+... 85 % completed
+... 86 % completed
+... 87 % completed
+... 88 % completed
+... 89 % completed
+... 90 % completed
+... 91 % completed
+... 92 % completed
+... 93 % completed
+... 94 % completed
+... 95 % completed
+... 96 % completed
+... 97 % completed
+... 98 % completed
+... 99 % completed
+... 100 % completed
+Done.
+[n_cycles= 200] T_sim=  117.05 us | t2star_fit=   53.77 us | envelope@end=0.0087 | decay resolved | (367.4s)
+
+================================================================================
+CONVERGENCE TABLE
+================================================================================
+ n_cycles   T_sim_us  n_points  num_runs  t2star_fit_us  t2star_fit_rel_uncertainty  ratio_fit_to_window  envelope_at_window_end                                    status  wall_time_s
+       20  11.705259      1000       100      21.506110                    0.006036             1.837303                0.743612 decay unresolved within simulation window     6.900180
+       50  29.263147      2500       100      29.577794                    0.003564             1.010752                0.375748                            decay resolved    20.465591
+      100  58.526294      5000       100      39.947012                    0.002125             0.682548                0.116891                            decay resolved   172.343288
+      200 117.052589     10000       100      53.769652                    0.002656             0.459363                0.008747                            decay resolved   367.420563
+
+留덉��留� �몢 case(n_cycles=100 -> 200) 媛� t2star_fit 蹂��솕�쑉: 34.6%
+�뙋�젙: �븘吏� �닔�졃�븯吏� �븡�쓬 ��� fit�씠 �뿬�쟾�엳 �쇅�궫(extrapolation)�씪 媛��뒫�꽦�씠 �넂�쓬.
+
+Exports: C:\Users\norma\Desktop\�뿰援ъ옄猷�\QTCAD Simulation\Simulation Example\M08. Micromagnet EDSR\Reference\output\analysis_exports
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 592.2633539999952 s

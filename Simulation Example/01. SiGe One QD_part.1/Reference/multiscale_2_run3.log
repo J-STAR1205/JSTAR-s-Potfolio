@@ -1,0 +1,134 @@
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\01. SiGe One QD_part.1\Reference\meshes\multiscale.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      7668102             
+Triangular elements           7878                
+Tetrahedral elements          7660224             
+Total number of nodes         1292986             
+Boundary physical names       gate_plunger, gate_confinement, 
+Region physical names         oxide, cap_top, cap_qd, cap_bot, well_qd, well, buffer_qd, buffer_top, buffer_bot, 
+================================================================================
+Tiling crystallographic unit cell over volume of atomic structure...
+Atomic structure built in 167.58848690986633 s.
+Total number of atoms in atomic structure: 896337.
+Relaxing atomic structure...
+Atomic structure relaxed in 2324.741510629654 s.
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\01. SiGe One QD_part.1\Reference\output\multiscale.xyz
+Estimated file size: 49.324 MB
+Total number of atoms in restricted atomic structure: 87189.
+Interpolating finite-element quantity on atomic positions...
+Interpolation done in 7.673579931259155 s.
+Computing 10 eigenpairs of tight-binding Hamiltonian...
+10 eigenpairs of Hamiltonian were computed in: 395.1381313800812 s.
+Atomistic tight-binding eigenenergies (eV):
+[0.01041863 0.01190415 0.03168754 0.03306420 0.03354306 0.03522843 0.05383900 0.05466949 0.06628960 0.06795520]
+Valley splitting: 0.00148551368224147 eV
+Valley phase: 2.229638310110445 radians
+Ground state (nu_1)
+--------------------------------------------------------------------------------
+Probabilities of finding an electron on each type of orbital
+s: 0.14551945527421
+px: 0.0014458671714626353
+py: 0.0014533692304732507
+pz: 0.40333023120718214
+dyz: 0.00011240314289564008
+dxz: 0.00011596320119540623
+dxy: 0.18793639292653966
+d(x^2-y^2): 0.00011818022672632638
+d(3z^2-r^2): 0.22996198371522297
+s*: 0.030006153904097492
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Probabilities of finding an electron on each chemical species
+Ge:  0.0336821132654231
+Si:  0.9663178867345761
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Geometric properties of the tight-binding wavefunction:
+--------------------------------------------------------------------------------
+position:  [   7.59942345    3.39687561 -363.62545158] A
+std:  [27.84733747 28.86700984  7.48817932] A
+size:  [111.38934987 115.46803935  29.95271729] A
+--------------------------------------------------------------------------------
+First excited state (nu_2)
+--------------------------------------------------------------------------------
+Probabilities of finding an electron on each type of orbital
+s: 0.1454401653204276
+px: 0.0013894855521272371
+py: 0.0013980614268056376
+pz: 0.4035274291316434
+dyz: 9.537681505955296e-05
+dxz: 9.984440352182934e-05
+dxy: 0.18804018053606678
+d(x^2-y^2): 9.525742602666476e-05
+d(3z^2-r^2): 0.22987397210556884
+s*: 0.030040227282758732
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Probabilities of finding an electron on each chemical species
+Ge:  0.03241736912682591
+Si:  0.967582630873174
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Geometric properties of the tight-binding wavefunction:
+--------------------------------------------------------------------------------
+position:  [   6.03134077    1.34731349 -363.85234516] A
+std:  [28.20840862 28.84606729  7.44936128] A
+size:  [112.83363448 115.38426916  29.79744511] A
+--------------------------------------------------------------------------------
+Saved data in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\01. SiGe One QD_part.1\Reference\output\multiscale_TB_wf.vtu
+Estimated file size: 5.312 MB
+Matrix element of SOC Hamiltonian: (-1.0363428905684834e-05+1.1021146575504704e-05j) eV
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      1853820             
+Triangular elements           0                   
+Tetrahedral elements          1853820             
+Total number of nodes         321230              
+Boundary physical names                                     
+Region physical names         cap_qd, well_qd, buffer_qd,   
+================================================================================
+Interpolating finite-element quantity on atomic positions...
+Interpolation done in 2.4001705646514893 s.
+Matrix element of derivative of potential with respect to barrier gate voltage: 6.11965146705581e-06 eV/V
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 3170.618480200006 s

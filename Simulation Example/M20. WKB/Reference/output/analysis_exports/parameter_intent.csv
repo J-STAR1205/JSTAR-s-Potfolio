@@ -1,0 +1,7 @@
+parameter,intent
+"Lx=300, dot=190, barrier=5x2, lead=50x2 nm",lead_dot_lead.geo 고정 치수 — 두 lead가 각 50nm로 충분히 길어 WKB lead 파동함수가 점근적(asymptotic) 평면파 형태에 수렴하도록 함
+"Ky=2e-7, Kz=1e-4 (포물선 구속 세기)","Vy,Vz = K/2*(y-y0)^2 형태의 횡방향 조화진동자 포텐셜. Kz>>Ky로 z방향을 훨씬 세게 가둬 준1차원(quasi-1D) 도선처럼 만듦 — WKB가 x방향 1D 터널링문제로 분리(separable)되려면 횡방향이 종방향보다 훨씬 강하게 구속돼야 함"
+"barrier offset +12 meV, lead offset -10 meV, 전역 -10 meV 이동",barrier가 dot/lead보다 12meV 높아 터널 장벽 형성. lead를 dot보다 10meV 낮춰 전자가 lead에서 dot로 들어갈 때 유리하도록(에너지 사면) 설계. 마지막 전역 -10meV 이동은 전체 에너지 기준점을 화학퍼텐셜 근처로 맞추는 조정.
+num_states=10 (Schrödinger solver),"Coulomb peak 전류 계산(many_body_solver_params.num_states=1)에는 바닥상태 1개면 충분하지만, dot 상태 자체는 여러 횡방향 준위를 포함하도록 넉넉히 10개 요청 — WKB lead의 n1=n2=1 (lead 쪽은 가장 낮은 횡방향 준위만 사용)"
+"junc.setVs(2.5mV), setVd(0), T=1K (Coulomb peak 계산)","저바이어스(linear response) 영역 — 열에너지 kT(1K)~86 µeV보다는 크고 dot 준위 간격보다는 작은 수준의 source bias로, 선형 전도 영역에서 Coulomb peak 모양을 왜곡 없이 봄"
+"v_gate_rng: -1~8 mV, 100점 / Coulomb diamond: Vg -1~8mV x Vs ±10mV, 150x150",Coulomb peak 하나가 들어오는 좁은 전압창을 조밀하게(100점) 스캔. diamond는 source/drain bias까지 넓혀 2차원 안정성 다이어그램 형태로 봄 (M06의 CSD와 같은 발상).

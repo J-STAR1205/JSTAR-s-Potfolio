@@ -1,0 +1,7 @@
+Quantity,Value
+"Fundamental mode (analytical, quarter-wave)",4.979 GHz
+"Fundamental mode (FEM, this run)",4.749 GHz
+Relative error (FEM vs. analytical),0.046
+mode1/mode0 ratio (FEM),3.041
+mode1/mode0 ratio (ideal quarter-wave),3.000
+Relative error of ratio,0.014

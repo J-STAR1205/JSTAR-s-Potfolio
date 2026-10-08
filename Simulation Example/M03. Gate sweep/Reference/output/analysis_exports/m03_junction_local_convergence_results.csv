@@ -1,0 +1,4 @@
+case,start_nodes,final_nodes,wall_time_s,left_wiggle_amplitude_meV,left_wiggle_position_nm,right_wiggle_amplitude_meV,right_wiggle_position_nm
+junction_local_h2.0,6076,219784,68.2360303401947,0.6634656283717177,-49.167927104285134,0.7783383247714909,48.08423014677207
+junction_local_h1.0,35857,261471,85.57776927947998,0.24915347669025867,-49.43678540785972,,
+junction_local_h0.5,267824,267824,38.36790919303894,,,,

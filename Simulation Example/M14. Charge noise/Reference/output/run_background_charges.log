@@ -1,0 +1,181 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\meshes\nanowire_background_charges.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      10498               
+Triangular elements           1468                
+Tetrahedral elements          9030                
+Total number of nodes         1872                
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, interface, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+================================================================================
+SOLVING NON-LINEAR POISSON WITHOUT BACKGROUND CHARGES
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+gate_bnd                                    gate            2.000000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               2.640e+00      0.358534     (9.567e-10, 2.310e-09, 5.000e-09)   
+2               8.724e-01      0.088640     (4.330e-10, -7.500e-10, 1.020e-08)  
+3               2.755e-01      0.091876     (1.278e-10, -2.331e-10, 1.020e-08)  
+4               5.970e-02      0.086157     (1.278e-10, -2.331e-10, 1.020e-08)  
+5               7.589e-03      0.094515     (1.278e-10, -2.331e-10, 1.500e-08)  
+6               2.547e-04      0.088471     (4.330e-10, -7.500e-10, 1.500e-08)  
+7               2.095e-05      0.084425     (4.330e-10, -7.500e-10, 1.500e-08)  
+8               1.839e-06      0.085045     (4.330e-10, -7.500e-10, 1.500e-08)  
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.38
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      209757              
+Triangular elements           14178               
+Tetrahedral elements          195579              
+Total number of nodes         35862               
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, interface, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+9               1.531e+00      0.497541     (2.001e-09, 8.724e-13, 4.554e-09)   
+10              3.687e-02      0.414534     (5.683e-11, -1.229e-09, 1.473e-08)  
+11              1.801e-03      0.393310     (-6.341e-10, -9.210e-10, 1.456e-08) 
+12              5.462e-05      0.397288     (-8.725e-10, 1.220e-09, 1.424e-08)  
+13              3.888e-06      0.373318     (4.293e-12, -7.388e-12, 5.883e-09)  
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 13 Poisson iterations.
+> 9.152565240859985 s.
+Average computation time / Poisson iteration is 0.7040437551645132 s.
+--------------------------------------------------------------------------------
+================================================================================
+SOLVING NON-LINEAR POISSON WITH BACKGROUND CHARGES
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+gate_bnd                                    gate            2.000000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               2.640e+00      0.098395     (9.567e-10, 2.310e-09, 5.000e-09)   
+2               1.240e-01      0.094565     (-8.177e-10, -4.921e-10, 5.000e-09) 
+3               1.678e-02      0.088036     (-8.177e-10, -4.921e-10, 5.000e-09) 
+4               2.359e-03      0.094342     (-8.177e-10, -4.921e-10, 5.000e-09) 
+5               2.605e-04      0.098193     (-8.177e-10, -4.921e-10, 5.000e-09) 
+6               2.664e-05      0.090138     (-8.177e-10, -4.921e-10, 5.000e-09) 
+7               2.601e-06      0.091532     (-8.177e-10, -4.921e-10, 5.000e-09) 
+
+conda : C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\background_charges.py:143: UserWarning: FigureCanvasAgg is non-interactive, an
+d thus cannot be shown
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python background_charges.py 2 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M14. Charge noise\Reference\background_charges.py:206: UserWarning: FigureCanvasAgg is non-interactive, and thus c
+annot be shown
+  plt.show()
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.38
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      214503              
+Triangular elements           17626               
+Tetrahedral elements          196877              
+Total number of nodes         36167               
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, interface, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+8               1.788e+00      0.516089     (-2.041e-09, 2.810e-11, 1.545e-08)  
+9               1.904e-02      0.421810     (-1.263e-09, 9.747e-11, 1.616e-08)  
+10              4.605e-04      0.407067     (-8.553e-10, -3.245e-10, 1.528e-08) 
+11              1.323e-05      0.400399     (-8.314e-10, -3.307e-10, 1.500e-08) 
+12              3.082e-07      0.399881     (-8.314e-10, -3.307e-10, 1.500e-08) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 12 Poisson iterations.
+> 9.095691680908203 s.
+Average computation time / Poisson iteration is 0.7579753200213114 s.
+--------------------------------------------------------------------------------
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 24.011544800014235 s

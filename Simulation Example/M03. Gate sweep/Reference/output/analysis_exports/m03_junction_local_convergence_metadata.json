@@ -1,0 +1,12 @@
+{
+  "classification": "B. Parameter sensitivity / numerical convergence study",
+  "method": "gmsh Mesh.Field(Box) local refinement at y=-45/+45nm +-10nm (x: +-25nm, z: -22 to +3nm), VOut=100nm, Thickness=5nm",
+  "junction_left_nm": -45.0,
+  "junction_right_nm": 45.0,
+  "h_local_values_nm": [
+    2.0,
+    1.0,
+    0.5
+  ],
+  "convergence_criterion": "rel_amplitude_change<5% AND position_shift<0.2nm (project practical)"
+}

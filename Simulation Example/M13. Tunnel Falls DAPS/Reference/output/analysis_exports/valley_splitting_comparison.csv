@@ -1,0 +1,6 @@
+quantity,value,unit
+Input model mean VS,200.0,ueV
+Input correlation length x,19.2,nm
+Input correlation length y,1000.0,nm
+Spectrum-based lower bound @ -10mV,731.239999999957,ueV
+Spectrum-based lower bound @ +10mV,832.3400000000447,ueV

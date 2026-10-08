@@ -1,0 +1,6 @@
+stage,nodes
+half-mesh (qdfdsoi.msh),15743
+after mirror (qdfdsoi_mirrored.msh),30576
+adaptive refinement #1,166647
+adaptive refinement #2,329825
+adaptive refinement #3,272209

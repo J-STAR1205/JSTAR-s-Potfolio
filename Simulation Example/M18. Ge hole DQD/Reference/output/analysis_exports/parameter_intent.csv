@@ -1,0 +1,6 @@
+parameter,intent
+P1=P2=-0.6V (plunger),정공을 Ge_well.dot_region으로 끌어모으는 음의 전압 — 정공은 전자와 반대로 낮은 전위(더 음의 V)에 끌림.
+BC=+0.9V (center barrier),"P1,P2 사이 중앙 배리어를 양의 전압으로 밀어올려(정공을 밀어내) 두 dot을 분리 — BL/BR(+0.5V)보다 높여 중앙 장벽을 더 단단하게 만듦."
+BL=BR=+0.5V (outer barriers),"소스/드레인 쪽 바깥 배리어 — 중앙(BC)보다 낮은 전압으로 상대적으로 약한 장벽, dot과 외부 저장소 사이 터널링 경로를 열어둠."
+hole_kp_model='luttinger_kohn_foreman' (4-band),M15의 quantum_well_holes.py가 쓴 6-band 모델보다 가벼운 4-band 버전 — SO(spin-orbit split-off) 밴드를 명시적으로 분리하지 않아도 되는 깊은 양자우물(Ge_well)에서는 4-band로 충분하다는 실무적 판단.
+"num_states=6 (Schrodinger), num_states=20 (lever arm)","바닥상태 분석에는 6개(3개 Kramers 쌍)로 충분하지만, lever-arm 행렬은 더 높은 궤도까지(20개) 포함해 게이트 결합의 궤도별 변화를 폭넓게 봄."

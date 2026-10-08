@@ -1,0 +1,16 @@
+{
+  "S0": 0.01,
+  "wc_rad_s": 10735662.268762141,
+  "w0": 0,
+  "num_runs": 100,
+  "points_per_cycle": 50,
+  "cycles_tested": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "fit_model": "cos(omega_Rabi*t+phase)*exp(-(t/t2star)^2), amp=1, offset=0 (notebook\uacfc \ub3d9\uc77c)",
+  "fit_validity_gate": "envelope_at_window_end < 0.7 (project practical criterion)",
+  "classification": "B. Parameter sensitivity / numerical convergence study"
+}

@@ -1,0 +1,121 @@
+﻿
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M01. 3D Poisson\Reference\meshes\nanowire_adaptive.msh4
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      4059                
+Triangular elements           480                 
+Tetrahedral elements          3579                
+Total number of nodes         865                 
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+source_bnd                                  ohmic           -                   
+drain_bnd                                   ohmic           -                   
+gate_bnd                                    gate            2.000000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               2.640e+00      15.301651    (-2.500e-09, 0.000e+00, 5.000e-09)  
+2               9.722e-01      3.837505     (-7.537e-12, 7.537e-12, 1.026e-08)  
+3               2.890e-01      3.533802     (-7.537e-12, 7.537e-12, 1.026e-08)  
+4               2.029e-02      4.361519     (-1.293e-10, -6.957e-11, 1.367e-08) 
+5               9.281e-03      3.894368     (-4.736e-10, -1.284e-10, 7.293e-09) 
+6               9.158e-03      3.646267     (0.000e+00, 2.220e-25, 1.217e-08)   
+7               1.132e-02      2.740252     (0.000e+00, 2.220e-25, 1.217e-08)   
+8               1.135e-02      3.714922     (0.000e+00, 2.220e-25, 1.217e-08)   
+9               1.144e-02      2.692616     (0.000e+00, 2.220e-25, 1.217e-08)   
+10              1.150e-02      2.279332     (0.000e+00, 2.220e-25, 1.217e-08)   
+11              1.160e-02      1.636788     (0.000e+00, 2.220e-25, 1.217e-08)   
+12              1.161e-02      1.800365     (0.000e+00, 2.220e-25, 1.217e-08)   
+13              1.163e-02      1.889423     (0.000e+00, 2.220e-25, 1.217e-08)   
+14              1.163e-02      1.290657     (0.000e+00, 2.220e-25, 1.217e-08)   
+15              1.164e-02      1.257823     (0.000e+00, 2.220e-25, 1.217e-08)   
+
+The error has saturated in the Poisson solver.
+Mesh will be refined. 
+
+Relative error: 0.40
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      110445              
+Triangular elements           5468                
+Tetrahedral elements          104977              
+Total number of nodes         19824               
+Boundary physical names       drain_bnd, gate_bnd, source_bnd, 
+Region physical names         drain, drain_ox, channel, channel_ox, source, source_ox, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+16              1.574e+00      12.999633    (6.662e-11, -2.005e-09, 4.503e-09)  
+17              7.239e-02      21.272679    (-3.948e-11, -1.943e-10, 1.224e-08) 
+18              8.163e-03      26.482779    (2.086e-10, -2.964e-11, 1.417e-08)  
+19              3.248e-04      23.968623    (-1.119e-10, 2.344e-10, 1.412e-08)  
+20              1.432e-05      15.606161    (-7.982e-11, -8.540e-10, 1.571e-08) 
+21              8.707e-07      5.712666     (-7.982e-11, -8.540e-10, 1.571e-08) 
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 21 Poisson iterations.
+> 195.40358638763428 s.
+Average computation time / Poisson iteration is 9.304933979397727 s.
+--------------------------------------------------------------------------------
+python : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:510: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:7 char:1
++ python -X utf8 adaptive.py *> "adaptive_run.log"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  analysis_private.plot_bands(
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 280.16887180000776 s

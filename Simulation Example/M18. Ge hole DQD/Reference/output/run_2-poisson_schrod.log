@@ -1,0 +1,167 @@
+﻿conda : C:\Users\norma\miniconda3\envs\qtcad\Lib\site-packages\qtcad\device\analysis.py:510: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:4 char:1
++ conda run --no-capture-output -n qtcad python 2-poisson_schrod.py 2>& ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\norma\...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  analysis_private.plot_bands(
+C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\2-poisson_schrod.py:114: UserWarning: FigureCanvasAgg is non-interactive, and thus cann
+ot be shown
+  plt.show()
+
+|  ||  |||                                                                 \\  
+|  ||  |||         @@@@     @@@@@@@@      @@@@@        @       @@@@@@@      \\ 
+|  ||  |||      @@@   @@@      @@      @@@    @       @@       @@    @@@     \\
+|  ||  |||     @@       @@     @@     @@             @ @@      @@     @@@     \\
+|  ||  |||     @@       @@     @@     @@            @    @     @@      @@     //
+|  ||  |||      @@     @@      @@      @@@    @    @@@@@@@@    @@    @@@     //
+|  ||  |||        @@@@@@       @@        @@@@@@   @@      @@   @@@@@@       // 
+|  ||  |||             @@                                                  //   
+
+                                 Version 2.2.6                                  
+  Copyright (c) 2022-2026 Nanoacademic Technologies Inc. All rights reserved.   
+
+      Welcome to QTCAD, the Quantum-Technology Computer-Aided Design tool.      
+
+                        For documentation, please visit:                        
+                      https://docs.nanoacademic.com/qtcad/                      
+
+                      For technical support, please visit:                      
+        https://nanoacademic.atlassian.net/servicedesk/customer/portal/1        
+                                   or email:                                    
+                            support@nanoacademic.com                            
+
+    Please consider citing QTCAD in your work following our suggestions at:     
+                  https://docs.nanoacademic.com/qtcad/citing/                   
+
+                   For any commercial inquiry, please email:                    
+                             sales@nanoacademic.com                             
+
+      For more information about Nanoacademic Technologies, please visit:       
+                            https://nanoacademic.com                            
+
+--------------------------------------------------------------------------------
+Loading mesh from file:
+ C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\meshes\ge_dqd.msh
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      279202              
+Triangular elements           44870               
+Tetrahedral elements          234332              
+Total number of nodes         43102               
+Boundary physical names       substrate_bottom, substrate_side, SiGe_barrier_bottom, SiGe_barrier_side, Ge_well_bottom, Ge_well_side, SiGe_cap_bottom, SiGe_cap_side, oxide_bottom, oxide_side, oxide_top, Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, BC, BR, BL, P2, P1, 
+Region physical names         substrate, SiGe_barrier, Ge_well, SiGe_cap, oxide, Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving the non-linear Poisson equation with the boundary conditions displayed below.
+--------------------------------------------------------------------------------
+Boundary label                              Type            Applied potential (V)
+--------------------------------------------------------------------------------
+P1                                          gate            -0.600000000000     
+P2                                          gate            -0.600000000000     
+BC                                          gate            0.900000000000      
+BL                                          gate            0.500000000000      
+BR                                          gate            0.500000000000      
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+1               1.218e+00      1.443932     (4.730e-08, 2.505e-08, 8.500e-08)   
+2               1.640e-02      0.770837     (8.208e-08, 6.325e-08, 6.778e-08)   
+3               4.764e-03      0.934312     (6.675e-08, 0.000e+00, 6.421e-08)   
+4               3.887e-03      0.839498     (2.904e-08, 0.000e+00, 5.275e-08)   
+5               1.372e-03      0.760288     (8.071e-08, 0.000e+00, 5.791e-08)   
+6               1.750e-04      0.765845     (2.243e-08, 7.000e-08, 5.970e-08)   
+
+Solver converged on mesh with fewer nodes than minimum.
+Mesh will be refined. 
+
+See min_nodes parameter.
+
+Relative error: 0.41
+Error threshold: 0.10
+
+Generating mesh with algorithm:  delaunay
+Loading mesh from the Gmsh model object.
+Done.
+================================================================================
+3D MESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      2337669             
+Triangular elements           167571              
+Tetrahedral elements          2170098             
+Total number of nodes         371211              
+Boundary physical names       substrate_bottom, substrate_side, SiGe_barrier_bottom, SiGe_barrier_side, Ge_well_bottom, Ge_well_side, SiGe_cap_bottom, SiGe_cap_side, oxide_bottom, oxide_side, oxide_top, Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, BC, BR, BL, P2, P1, 
+Region physical names         substrate, SiGe_barrier, Ge_well, SiGe_cap, oxide, Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+Interpolating potential.
+Done.
+--------------------------------------------------------------------------------
+Poisson iter #  Max abs error  Time (s)     Max err. coords (m)                 
+--------------------------------------------------------------------------------
+7               6.899e-01      15.418820    (6.348e-08, 3.473e-08, 8.355e-08)   
+8               4.072e-04      9.576661     (2.631e-08, 6.218e-08, 6.142e-08)   
+--------------------------------------------------------------------------------
+Error converged below required tolerance after:
+> 8 Poisson iterations.
+> 219.04474520683289 s.
+Average computation time / Poisson iteration is 27.380594462156296 s.
+--------------------------------------------------------------------------------
+Saved variable var in C:\Users\norma\Desktop\연구자료\QTCAD Simulation\Simulation Example\M18. Ge hole DQD\Reference\output\electrostatic_potential.hdf5
+Estimated file size: 1.668 MB
+================================================================================
+3D SUBMESH STATISTICS
+--------------------------------------------------------------------------------
+Total number of elements      331736              
+Triangular elements           38857               
+Tetrahedral elements          292879              
+Total number of nodes         52613               
+Boundary physical names       Ge_well_bottom.dot-region, SiGe_cap.dot_region_top, Ge_well.dot_region_side, SiGe_cap.dot_region_side, SiGe_barrier.dot_region_side, SiGe_cap_bottom.dot-region, SiGe_barrier.dot_region_bottom, 
+Region physical names         Ge_well.dot_region, SiGe_barrier.dot_region, SiGe_cap.dot_region, 
+================================================================================
+--------------------------------------------------------------------------------
+Solving Schrödinger's equation for holes.
+--------------------------------------------------------------------------------
+Schrodinger's equation solved in 333.461058600049 s.
+Energy levels (eV)
+[-0.04006731 -0.04006715 -0.03959051 -0.03959043 -0.03384656 -0.03384313]
+2026-10-01 23:33:46.533 ( 615.790s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6D30): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:46.579 ( 615.837s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6850): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:46.605 ( 615.863s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6B90): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:47.881 ( 617.138s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F2008DE550): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:47.901 ( 617.158s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F2008DEBD0): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:47.922 ( 617.180s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F2008DEBD0): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:48.662 ( 617.919s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6B90): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:48.685 ( 617.943s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6D30): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+2026-10-01 23:33:48.716 ( 617.974s) [9C8F57B5D85C5918]          vtkmSlice.cxx:328   WARN| vtkmSlice (000002F20FFB6D30): Viskores failed with message: vtkmSlice only generates tri
+angles in the output.
+Falling back to the default VTK implementation.
+--------------------------------------------------------------------------------
+Geometric properties of the quantum dot:
+--------------------------------------------------------------------------------
+position        :  [2.29192861e-08 3.48428881e-08 6.57473962e-08]
+std             :  [4.26070246e-09 5.22048099e-09 2.42623504e-09]
+size            :  [1.70428098e-08 2.08819240e-08 9.70494014e-09]
+--------------------------------------------------------------------------------
+
+================================================================================
+Exiting QTCAD script.
+Total simulation time: 620.9692794999573 s

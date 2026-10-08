@@ -1,0 +1,26 @@
+{
+  "classification": "C. Physics-oriented extension / validation study",
+  "num_states": 4,
+  "coulomb_shape_overlap_false": [
+    4,
+    4
+  ],
+  "coulomb_shape_overlap_true": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "coulomb_bytes_overlap_false": 128,
+  "coulomb_bytes_overlap_true": 2048,
+  "t_coulomb_overlap_false_s": 35.26854467391968,
+  "t_coulomb_overlap_true_s": 39.330740451812744,
+  "t_sweep_overlap_false_s": 31.673567295074463,
+  "t_sweep_overlap_true_s": 64.24257898330688,
+  "max_abs_normalized_csd_diff": 0.9909658235788154,
+  "temperature_K": 10,
+  "gate_bias_range_V": [
+    0.03,
+    0.14
+  ]
+}
